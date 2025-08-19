@@ -1,0 +1,2458 @@
+{% extends 'base.html' %} {% block title %}Портфолио{% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+<hr>
+
+<br>
+
+<div class="project_container">
+    <table>
+        <tr>
+            <td class="title">
+                <h1>Краткая информация</h1>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                
+                <p>Я - программист низкого уровня и разработчик игровых движков.</p>
+                <br>
+                
+                <p>Биография</p>
+                <ul>
+                    <li>
+                        <p1>2004 г. - начал обучение в школе</p1>
+                    </li>
+                    <li>
+                        <p1>2007 г. - в четвёртом классе начальной школы, начал изучать программирование с понятия алгоритма</p1>
+                    </li>
+                    <li>
+                        <p1>2008 - 2013 гг. - в средней школе, узнал про двоичную систему счисления, бинарные операции и начал писать простейшие программы на языке PascalABC (переменные, ввод и вывод на экран)</p1>
+                    </li>
+                    <li>
+                        <p1>2013 - 2015 гг. - в старших классах, изучил основные операторы ЯВУ на примере PascalABC (ветвление, циклы и т.д.) и начал писать программы для решения математических задач</p1>
+                    </li>
+                    <li>
+                        <p1>2015 - 2019 г. - учился в ЧГУ на ИВТ и активно занимался программированием. Со второй половины 2019 и по 2020 год учился в магистратуре, а также работал в МАУ "ЦМИРиТ"</p1>
+                    </li>
+                    <li>
+                        <p1>2020 - по н.в. - изучаю программирование низкого уровня, пишу приложения без CRT, а также программирую игровые движки</p1>
+                    </li>
+                </ul>
+                
+                <details>
+                <summary>Опыт разработки на языках программирования</summary>
+                <ul>
+                    <li>
+                        <p1>C, C#, C++: игровые движки и десктопные приложения под Windows</p1>
+                    </li>
+                    <li>
+                        <p1>ASM/Assembler</p1>
+                    </li>
+                    <li>
+                        <p1>Java: веб-сервисы, веб-сайты, мобильные и десктопные приложения под Windows</p1>
+                    </li>
+                    <li>
+                        <p1>Python: веб-сайты на Django, простенькие программы для прикладных задач</p1>
+                    </li>
+                    <li>
+                        <p1>js, html, css, php: веб-сайты</p1>
+                    </li>
+                    <li>
+                        <p1>Visual Basic for Applications: программы для автоматизация Excel таблиц</p1>
+                    </li>
+                    <li>
+                        <p1>PHP: запросы к MySQL БД, формы авторизации</p1>
+                    </li>
+                    <li>
+                        <p1>SQL: запросы к БД</p1>
+                    </li>
+                    <li>
+                        <p1>Встроенный язык программирования 1С Предприятие</p1>
+                    </li>
+                    <li>
+                        <p1>Batch и Bash</p1>
+                    </li>
+                </ul>
+                </details>
+                
+                <details>
+                <summary>Опыт работы с вспомогательным и отладочным ПО</summary>
+                <p></p>
+                <ul>
+                    <li>
+                        <p1>Git</p1>
+                    </li>
+                    <li>
+                        <p1>RAD Debugger</p1>
+                    </li>
+                    <li>
+                        <p1>NVIDIA Nsight Graphics</p1>
+                    </li>
+                    <li>
+                        <p1>HxD</p1>
+                    </li>
+                    
+                    <li>
+                        <p1>Wireshark</p1>
+                    </li>
+                    <li>
+                        <p1>SoapUI</p1>
+                    </li>
+                    <li>
+                        <p1>SHADERed</p1>
+                    </li>
+                    <li>
+                        <p1>RenderDoc</p1>
+                    </li>
+                    <li>
+                        <p1>SQLiteStudio</p1>
+                    </li>
+                    <li>
+                        <p1>DTM SQL editor</p1>
+                    </li>
+                    <li>
+                        <p1>Toad for Oracle</p1>
+                    </li>
+                </ul>
+                </details>
+
+                <details>
+                <summary>Опыт работы с IDE и текстовыми редакторами</summary>
+                <ul>
+                    <li>
+                        <p1>4Coder</p1>
+                    </li>
+                    <li>
+                        <p1>Visual Studio и Visual Studio Code</p1>
+                    </li>
+                    <li>
+                        <p1>NetBeans</p1>
+                    </li>
+                    <li>
+                        <p1>Android Studio</p1>
+                    </li>
+                    <li>
+                        <p1>IntelliJ IDEA и Eclipse</p1>
+                    </li>
+                    <li>
+                        <p1>Notepad++ и Emacs</p1>
+                    </li>
+                </ul>
+                </details>
+
+                <details>
+                <summary>Опыт работы с СУБД</summary>
+                <ul>
+                    <li>
+                        <p1>Rebus</p1>
+                    </li>
+                    <li>
+                        <p1>Microsoft Access</p1>
+                    </li>
+                    <li>
+                        <p1>MySQL</p1>
+                    </li>
+                    <li>
+                        <p1>Oracle Database</p1>
+                    </li>
+                </ul>
+                </details>
+                <br>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="project_container">
+    <table>
+        <tr>
+            <td class="title">
+                <h1>2020-н.в.: C++ Game Engine</h1>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+
+                <p>
+                В процессе обучения навыкам низкоуровнего программирования изучил и реализовал 
+                различные компоненты игрового движка, с нуля, без использования сторонних библиотек. Мои принципы и приёмы программирования основаны на серии видео  
+                <a href="https://handmadehero.org/" target="_blank">Handmade Hero от Casey Muratori</a>. На данный момент просмотрено и изучено 295+ эпизодов. Во время изучения продвинутых практик использования OpenGL ориентировался на видео 
+                <a href="https://www.youtube.com/channel/UCz29nMCtFP5cuyuLR_0dFkw" target="_blank">Begin End</a>
+                и
+                <a href="https://ogldev.org/" target="_blank">OGLdev</a>.
+                </p>
+                
+                <br>
+                
+                <details>
+                <summary>Список эпизодов Handmade Hero</summary>
+                <ul>
+                    <li><p1>Day 001: Setting Up the Windows Build</p1></li>
+                    <li><p1>Day 001qa: Setting Up the Windows Build - Q&A</p1></li>
+                    <li><p1>Day 002: Opening a Win32 Window</p1></li>
+                    <li><p1>Day 002qa: Opening a Win32 Window - Q&A</p1></li>
+                    <li><p1>Day 003: Allocating a Back Buffer</p1></li>
+                    <li><p1>Day 004: Animating the Back Buffer</p1></li>
+                    <li><p1>Day 005: Windows Graphics Review</p1></li>
+                    <li><p1>Day 006: Gamepad and Keyboard Input</p1></li>
+                    <li><p1>Day 007: Initializing DirectSound</p1></li>
+                    <li><p1>Day 008: Writing a Square Wave to DirectSound</p1></li>
+                    <li><p1>Day 009: Variable-Pitch Sine Wave Output</p1></li>
+                    <li><p1>Day 010: QueryPerformanceCounter and RDTSC</p1></li>
+                    <li><p1>Day 011: The Basics of Platform API Design</p1></li>
+                    <li><p1>Day 012: Platform-independent Sound Output</p1></li>
+                    <li><p1>Day 013: Platform-independent User Input</p1></li>
+                    <li><p1>Day 014: Platform-independent Game Memory</p1></li>
+                    <li><p1>Day 015: Platform-independent Debug File I/O</p1></li>
+                    <li><p1>Day 016: VisualStudio Compiler Switches</p1></li>
+                    <li><p1>Day 017: Unified Keyboard and Gamepad Input</p1></li>
+                    <li><p1>Day 018: Enforcing a Video Frame Rate</p1></li>
+                    <li><p1>Day 019: Improving Audio Synchronization</p1></li>
+                    <li><p1>Day 020: Debugging the Audio Sync</p1></li>
+                    <li><p1>Day 021: Loading Game Code Dynamically</p1></li>
+                    <li><p1>Day 022: Instantaneous Live Code Editing</p1></li>
+                    <li><p1>Day 023: Looped Live Code Editing</p1></li>
+                    <li><p1>Day 024: Win32 Platform Layer Cleanup</p1></li>
+                    <li><p1>Day 025: Finishing the Win32 Prototyping Layer</p1></li>
+                    <li><p1>Day 026: Introduction to Game Architecture</p1></li>
+                    <li><p1>Day 027: Exploration-based Architecture</p1></li>
+                    <li><p1>Day 028: Drawing a Tile Map</p1></li>
+                    <li><p1>Day 029: Basic Tile Map Collision Checking</p1></li>
+                    <li><p1>Day 030: Moving Between Tile Maps</p1></li>
+                    <li><p1>Day 031: Tilemap Coordinate Systems</p1></li>
+                    <li><p1>Day 032: Unified Position Representation</p1></li>
+                    <li><p1>Day 033: Virtualized Tile Maps</p1></li>
+                    <li><p1>Day 034: Tile Map Memory</p1></li>
+                    <li><p1>Day 035: Basic Sparse Tilemap Storage</p1></li>
+                    <li><p1>Day 036: Loading BMPs</p1></li>
+                    <li><p1>Day 037: Basic Bitmap Rendering</p1></li>
+                    <li><p1>Day 038: Basic Linear Bitmap Blending</p1></li>
+                    <li><p1>Day 039: Basic Bitmap Rendering Cleanup</p1></li>
+                    <li><p1>Day 040: Cursor Hiding and Fullscreen Support</p1></li>
+                    <li><p1>Day 041: Overview of the Types of Math Used in Games</p1></li>
+                    <li><p1>Day 042: Basic 2D Vectors</p1></li>
+                    <li><p1>Day 043: The Equations of Motion</p1></li>
+                    <li><p1>Day 044: Reflecting Vectors</p1></li>
+                    <li><p1>Day 045: Geometric vs. Temporal Movement Search</p1></li>
+                    <li><p1>Day 046: Basic Multiplayer Support</p1></li>
+                    <li><p1>Day 047: Vector Lengths</p1></li>
+                    <li><p1>Day 048: Line Segment Intersection Collisions</p1></li>
+                    <li><p1>Day 049: Debugging Canonical Coordinates</p1></li>
+                    <li><p1>Day 050: Basic Minkowski-based Collision Detection</p1></li>
+                    <li><p1>Day 051: Separating Entities By Update Frequency</p1></li>
+                    <li><p1>Day 052: Entity Movement in Camera Space</p1></li>
+                    <li><p1>Day 053: Environment Elements as Entities</p1></li>
+                    <li><p1>Day 054: Removing the Dormant Entity Concept</p1></li>
+                    <li><p1>Day 055: Hash-based World Storage</p1></li>
+                    <li><p1>Day 056: Switch from Tiles to Entities</p1></li>
+                    <li><p1>Day 057: Spatially Partitioning Entities</p1></li>
+                    <li><p1>Day 058: Using the Spatial Partition</p1></li>
+                    <li><p1>Day 059: Adding a Basic Familiar Entity</p1></li>
+                    <li><p1>Day 060: Adding Hitpoints</p1></li>
+                    <li><p1>Day 061: Adding a Simple Attack</p1></li>
+                    <li><p1>Day 062: Basic Moving Projectiles</p1></li>
+                    <li><p1>Day 063: Simulation Regions</p1></li>
+                    <li><p1>Day 064: Mapping Entity Indexes to Pointers</p1></li>
+                    <li><p1>Day 065: Finishing the Simulation Region Change</p1></li>
+                    <li><p1>Day 066: Adding Support for Non-spatial Entities</p1></li>
+                    <li><p1>Day 067: Making Updates Conditional</p1></li>
+                    <li><p1>Day 068: Exact Enforcement of Maximum Movement Distances</p1></li>
+                    <li><p1>Day 069: Pairwise Collision Rules</p1></li>
+                    <li><p1>Day 070: Exploration To-do List</p1></li>
+                    <li><p1>Day 071: Converting to Full 3D Positioning</p1></li>
+                    <li><p1>Day 072: Proper 3D Inclusion Tests</p1></li>
+                    <li><p1>Day 073: Temporarily Overlapping Entities</p1></li>
+                    <li><p1>Day 074: Moving Entities Up and Down Stairwells</p1></li>
+                    <li><p1>Day 075: Conditional Movement Based on Step Heights</p1></li>
+                    <li><p1>Day 076: Entity Heights and Collision Detection</p1></li>
+                    <li><p1>Day 077: Entity Ground Points</p1></li>
+                    <li><p1>Day 078: Multiple Collision Volumes Per Entity</p1></li>
+                    <li><p1>Day 079: Defining the Ground</p1></li>
+                    <li><p1>Day 080: Handling Traversables in the Collision Loop</p1></li>
+                    <li><p1>Day 081: Creating Ground with Overlapping Bitmaps</p1></li>
+                    <li><p1>Day 082: Caching Composited Bitmaps</p1></li>
+                    <li><p1>Day 083: Premultiplied Alpha</p1></li>
+                    <li><p1>Day 084: Scrolling Ground Buffer</p1></li>
+                    <li><p1>Day 085: Transient Ground Buffers</p1></li>
+                    <li><p1>Day 086: Aligning Ground Buffers to World Chunks</p1></li>
+                    <li><p1>Day 087: Seamless Ground Textures</p1></li>
+                    <li><p1>Day 088: Push Buffer Rendering</p1></li>
+                    <li><p1>Day 089: Renderer Push Buffer Entry Types</p1></li>
+                    <li><p1>Day 090: Bases Part I</p1></li>
+                    <li><p1>Day 091: Bases Part II</p1></li>
+                    <li><p1>Day 092: Filling Rotated and Scaled Rectangles</p1></li>
+                    <li><p1>Day 093: Textured Quadrilaterals</p1></li>
+                    <li><p1>Day 094: Converting sRGB to Light-linear Space</p1></li>
+                    <li><p1>Day 095: Gamma-correct Premultiplied Alpha</p1></li>
+                    <li><p1>Day 096: Introduction to Lighting</p1></li>
+                    <li><p1>Day 097: Adding Normal Maps to the Pipeline</p1></li>
+                    <li><p1>Day 098: Normal Map Code Cleanup</p1></li>
+                    <li><p1>Day 099: Test Enviroment Maps</p1></li>
+                    <li><p1>Day 100: Reflection Vectors</p1></li>
+                    <li><p1>Day 101: The Inverse and the Transpose</p1></li>
+                    <li><p1>Day 102: Transforming Normals Properly</p1></li>
+                    <li><p1>Day 103: Card-like Normal Map Reflections</p1></li>
+                    <li><p1>Day 104: Switching to Y-is-up Render Targets</p1></li>
+                    <li><p1>Day 105: Cleaning Up the Renderer API</p1></li>
+                    <li><p1>Day 106: World Scaling</p1></li>
+                    <li><p1>Day 107: Fading Z Layers</p1></li>
+                    <li><p1>Day 108: Perspective Projection</p1></li>
+                    <li><p1>Day 109: Resolution-Independent Rendering</p1></li>
+                    <li><p1>Day 110: Unprojecting Screen Boundaries</p1></li>
+                    <li><p1>Day 111: Resolution-Independent Ground Chunks</p1></li>
+                    <li><p1>Day 112: A Mental Model of CPU Performance</p1></li>
+                    <li><p1>Day 113: Simple Performance Counters</p1></li>
+                    <li><p1>Day 114: Preparing a Function for Optimization</p1></li>
+                    <li><p1>Day 115: SIMD Basics</p1></li>
+                    <li><p1>Day 116: Converting Math Operations to SIMD</p1></li>
+                    <li><p1>Day 117: Packing Pixels for the Framebuffer</p1></li>
+                    <li><p1>Day 118: Wide Unpacking and Masking</p1></li>
+                    <li><p1>Day 119: Counting Intrinsics</p1></li>
+                    <li><p1>Day 120: Measuring Port Usage with IACA</p1></li>
+                    <li><p1>Day 121: Rendering in Tiles (Marathon)</p1></li>
+                    <li><p1>Day 122: Introduction to Multithreading</p1></li>
+                    <li><p1>Day 123: Interlocked Operations</p1></li>
+                    <li><p1>Day 124: Memory Barriers and Semaphores</p1></li>
+                    <li><p1>Day 125: Abstracting the Work Queue</p1></li>
+                    <li><p1>Day 126: Circular FIFO Work Queue</p1></li>
+                    <li><p1>Day 127: Aligning Rendering Memory</p1></li>
+                    <li><p1>Day 128: Push-time Transforms</p1></li>
+                    <li><p1>Day 129: Adding Orthographic Projection</p1></li>
+                    <li><p1>Day 130: Seamless Bilinear Tiling</p1></li>
+                    <li><p1>Day 131: Asynchronous Ground Chunk Composition</p1></li>
+                    <li><p1>Day 132: Asset Streaming</p1></li>
+                    <li><p1>Day 133: Preliminary Asset Structuring</p1></li>
+                    <li><p1>Day 134: Mapping Assets to Bitmaps</p1></li>
+                    <li><p1>Day 135: Typed Asset Arrays</p1></li>
+                    <li><p1>Day 136: Tag-based Asset Retrieval</p1></li>
+                    <li><p1>Day 137: Matching Periodic Tags</p1></li>
+                    <li><p1>Day 138: Loading WAV Files</p1></li>
+                    <li><p1>Day 139: Introduction to Sound Mixing</p1></li>
+                    <li><p1>Day 140: Implemented a Sound Mixer</p1></li>
+                    <li><p1>Day 141: Streaming Large Audio in Chunks</p1></li>
+                    <li><p1>Day 142: Per-sample Volume Interpolation</p1></li>
+                    <li><p1>Day 143: Pitch Shifting in the Mixer</p1></li>
+                    <li><p1>Day 144: SSE Mixer Pre and Post Loops</p1></li>
+                    <li><p1>Day 145: SSE Mixer Main Loop</p1></li>
+                    <li><p1>Day 146: Accumulation vs. Explicit Calculation</p1></li>
+                    <li><p1>Day 147: Defining the Asset File</p1></li>
+                    <li><p1>Day 148: Writing the Asset File Header</p1></li>
+                    <li><p1>Day 149: Writing Assets to the Asset File</p1></li>
+                    <li><p1>Day 150: Loading Assets from the Asset File</p1></li>
+                    <li><p1>Day 151: New Platform File API</p1></li>
+                    <li><p1>Day 152: New Win32 File API Implementation</p1></li>
+                    <li><p1>Day 153: Merging Multiple Asset Files</p1></li>
+                    <li><p1>Day 154: Finding Assets Files with Win32</p1></li>
+                    <li><p1>Day 155: Introduction to Particle Systems</p1></li>
+                    <li><p1>Day 156: Lagrangian vs. Eulerian Simulation</p1></li>
+                    <li><p1>Day 157: Introduction to General Purpose Allocation</p1></li>
+                    <li><p1>Day 158: Tracking Asset Usage</p1></li>
+                    <li><p1>Day 159: Cleaning Up the Loaded Asset Infrastructure</p1></li>
+                    <li><p1>Day 160: Basic General Purpose Allocation</p1></li>
+                    <li><p1>Day 161: Finishing the General Purpose Allocator</p1></li>
+                    <li><p1>Day 162: Introduction to Fonts</p1></li>
+                    <li><p1>Day 163: Asset Processing with STB TrueType</p1></li>
+                    <li><p1>Day 164: Asset Processing with Windows Fonts</p1></li>
+                    <li><p1>Day 165: Fixing an Asset System Thread Bug</p1></li>
+                    <li><p1>Day 166: Adding Locks to the Asset Operations</p1></li>
+                    <li><p1>Day 167: Finishing Win32 Font Glyph Extraction</p1></li>
+                    <li><p1>Day 168: Rendering Lines of Text</p1></li>
+                    <li><p1>Day 169: Aligning Text to a Baseline</p1></li>
+                    <li><p1>Day 170: Defining Font Metadata</p1></li>
+                    <li><p1>Day 171: Adding Font Metadata to the Asset Builder</p1></li>
+                    <li><p1>Day 172: Extracting Kerning Tables from Windows</p1></li>
+                    <li><p1>Day 173: Precise Font Alignment</p1></li>
+                    <li><p1>Day 174: Adding Sparse Unicode Support</p1></li>
+                    <li><p1>Day 175: Finishing Sparse Unicode Support</p1></li>
+                    <li><p1>Day 176: Introduction to Debug Infrastructure</p1></li>
+                    <li><p1>Day 177: Automatic Performance Counters</p1></li>
+                    <li><p1>Day 178: Thread-safe Performance Counters</p1></li>
+                    <li><p1>Day 179: Tracking Debug Information Over Time</p1></li>
+                    <li><p1>Day 180: Adding Debug Graphs</p1></li>
+                    <li><p1>Day 181: Log-based Performance Counters</p1></li>
+                    <li><p1>Day 182: Fast Thread ID Retrieval</p1></li>
+                    <li><p1>Day 183: Platform Layer Debug Events</p1></li>
+                    <li><p1>Day 184: Collating Debug Events</p1></li>
+                    <li><p1>Day 185: Finishing Basic Debug Collation</p1></li>
+                    <li><p1>Day 186: Starting to Debug Event Recording</p1></li>
+                    <li><p1>Day 187: Fixing an Event Recording Bug</p1></li>
+                    <li><p1>Day 188: Adding Hover to the Debug Graphs</p1></li>
+                    <li><p1>Day 189: Incremental Debug Frame Processing</p1></li>
+                    <li><p1>Day 190: Cleaning Up Debug Globals</p1></li>
+                    <li><p1>Day 191: Implementing a Radial Menu</p1></li>
+                    <li><p1>Day 192: Implementing Self-Recompilation</p1></li>
+                    <li><p1>Day 193: Run-time Setting of Compile-time Variables</p1></li>
+                    <li><p1>Day 194: Organizing Debug Variables into a Hierarchy</p1></li>
+                    <li><p1>Day 195: Implementing an Interactive Tree View</p1></li>
+                    <li><p1>Day 196: Introduction to UI Interactions</p1></li>
+                    <li><p1>Day 197: Integrating Multiple Debug Views</p1></li>
+                    <li><p1>Day 198: Run-time Editing of Debug Hierarchies</p1></li>
+                    <li><p1>Day 199: Reusing Debug Interactions</p1></li>
+                    <li><p1>Day 200: Debug Element Layout</p1></li>
+                    <li><p1>Day 201: Isolating the Debug Code</p1></li>
+                    <li><p1>Day 202: Multiply Appearing Debug Values</p1></li>
+                    <li><p1>Day 203: Debug UI State Caching</p1></li>
+                    <li><p1>Day 204: Unprojecting the Mouse Cursor</p1></li>
+                    <li><p1>Day 205: Picking Entities with the Mouse</p1></li>
+                    <li><p1>Day 206: Implementing Introspection</p1></li>
+                    <li><p1>Day 207: Using Introspection Data</p1></li>
+                    <li><p1>Day 208: Adding Data Blocks to the Debug Log</p1></li>
+                    <li><p1>Day 209: Displaying Buffered Debug Data</p1></li>
+                    <li><p1>Day 210: Consolidating Debug Data Storage</p1></li>
+                    <li><p1>Day 211: Removing Records and Translation Units from the Debug Code</p1></li>
+                    <li><p1>Day 212: Integrating Debug UI into Game Code</p1></li>
+                    <li><p1>Day 213: Turning Debug Switches into Events</p1></li>
+                    <li><p1>Day 214: Collating Permanent Debug Values</p1></li>
+                    <li><p1>Day 215: Cleaning Up Debug Event Collation</p1></li>
+                    <li><p1>Day 216: On-demand Deallocation</p1></li>
+                    <li><p1>Day 217: Per-element Debug Event Storage</p1></li>
+                    <li><p1>Day 218: Hashing Debug Elements</p1></li>
+                    <li><p1>Day 219: Automatically Constructed Debug Hierarchies</p1></li>
+                    <li><p1>Day 220: Displaying Data Blocks in the Hierarchy</p1></li>
+                    <li><p1>Day 221: Implementing Multi-layer Cutscenes</p1></li>
+                    <li><p1>Day 222: Laying Out Cutscenes</p1></li>
+                    <li><p1>Day 223: Playing Multiple Cutscenes</p1></li>
+                    <li><p1>Day 224: Prefetching Cutscene Layers</p1></li>
+                    <li><p1>Day 225: Fading In and Out from the Windows Desktop</p1></li>
+                    <li><p1>Day 226: Handling Multiple Metagame Modes</p1></li>
+                    <li><p1>Day 227: Switching Between Metagame Modes</p1></li>
+                    <li><p1>Day 228: Waiting for Dependent Tasks on Metagame Mode Changes</p1></li>
+                    <li><p1>Day 229: Sorting Render Elements</p1></li>
+                    <li><p1>Day 230: Refining Renderer Sort Keys</p1></li>
+                    <li><p1>Day 231: Order Notation</p1></li>
+                    <li><p1>Day 232: Examples of Sorting Algorithms</p1></li>
+                    <li><p1>Day 233: Can We Merge Sort In Place?</p1></li>
+                    <li><p1>Day 234: Implementing Radix Sort</p1></li>
+                    <li><p1>Day 235: Initializing OpenGL on Windows</p1></li>
+                    <li><p1>Day 236: GPU Conceptual Overview</p1></li>
+                    <li><p1>Day 237: Displaying an Image with OpenGL</p1></li>
+                    <li><p1>Day 238: Making OpenGL Use Our Screen Coordinates</p1></li>
+                    <li><p1>Day 239: Rendering the Game Through OpenGL</p1></li>
+                    <li><p1>Day 240: Moving the Renderer into a Third Tier</p1></li>
+                    <li><p1>Day 241: OpenGL VSync and sRGB Extensions</p1></li>
+                    <li><p1>Day 242: OpenGL Context Escalation</p1></li>
+                    <li><p1>Day 243: Asynchronous Texture Downloads</p1></li>
+                    <li><p1>Day 244: Finishing Asynchronous Texture Downloads</p1></li>
+                    <li><p1>Day 245: Using wglChoosePixelFormatARB</p1></li>
+                    <li><p1>Day 246: Moving Worker Context Creation to the Main Thread</p1></li>
+                    <li><p1>Day 247: Simplifying Debug Values</p1></li>
+                    <li><p1>Day 248: Cleaning Up Data Block Display</p1></li>
+                    <li><p1>Day 249: Cleaning Up Debug Macros</p1></li>
+                    <li><p1>Day 250: Cleaning Up Debug GUIDs</p1></li>
+                    <li><p1>Day 251: Finishing the Debug Hierarchy</p1></li>
+                    <li><p1>Day 252: Allowing Debug Value Edits</p1></li>
+                    <li><p1>Day 253: Reenabling More Debug UI</p1></li>
+                    <li><p1>Day 254: Reenabling Profiling</p1></li>
+                    <li><p1>Day 255: Building a Profile Tree</p1></li>
+                    <li><p1>Day 256: XBox Controller Stalls and Fixing GL Blit Gamma</p1></li>
+                    <li><p1>Day 257: Cleaning Up Some Win32 Issues</p1></li>
+                    <li><p1>Day 258: Fixing Profiling Across Code Reloads</p1></li>
+                    <li><p1>Day 259: OpenGL and Software Renderer Cleanup</p1></li>
+                    <li><p1>Day 260: Implementing Drill-down in the Profiler</p1></li>
+                    <li><p1>Day 261: Changing to Static Frame Arrays</p1></li>
+                    <li><p1>Day 262: Drawing Multi-frame Profile Graphs</p1></li>
+                    <li><p1>Day 263: Adding a Debug Frame Slider</p1></li>
+                    <li><p1>Day 264: Adding Buttons to the Profiler</p1></li>
+                    <li><p1>Day 265: Cleaning Up the UI Layout Code</p1></li>
+                    <li><p1>Day 266: Adding a Top Clocks Profile View</p1></li>
+                    <li><p1>Day 267: Adding Per-Element Clipping Rectangles</p1></li>
+                    <li><p1>Day 268: Consolidating Debug Links and Groups</p1></li>
+                    <li><p1>Day 269: Cleaning Up Menu Drawing</p1></li>
+                    <li><p1>Day 270: Making Traversable Points</p1></li>
+                    <li><p1>Day 271: Hybrid Tile-based Movement</p1></li>
+                    <li><p1>Day 272: Explicit Movement Transitions</p1></li>
+                    <li><p1>Day 273: Animation Overview</p1></li>
+                    <li><p1>Day 274: Dynamic Animation with Springs</p1></li>
+                    <li><p1>Day 275: Passing Rotation and Shear to the Renderer</p1></li>
+                    <li><p1>Day 276: Tuning the Body Animation</p1></li>
+                    <li><p1>Day 277: The Sparse Entity System</p1></li>
+                    <li><p1>Day 278: Moving Entity Storage into World Chunks</p1></li>
+                    <li><p1>Day 279: Finishing World Chunk Entity Storage</p1></li>
+                    <li><p1>Day 280: Cleaned Up Streaming Entity Simulation</p1></li>
+                    <li><p1>Day 281: Animating the Camera Between Rooms</p1></li>
+                    <li><p1>Day 282: Z Movement and Camera Motion</p1></li>
+                    <li><p1>Day 283: Making Standing-on a More Rigorous Concept</p1></li>
+                    <li><p1>Day 284: Reorganizing the Head and Body Code</p1></li>
+                    <li><p1>Day 285: Transactional Occupation of Traversables</p1></li>
+                    <li><p1>Day 286: Starting to Decouple Entity Behavior</p1></li>
+                    <li><p1>Day 287: Adding Brains</p1></li>
+                    <li><p1>Day 288: Finishing Brains</p1></li>
+                    <li><p1>Day 289: Decoupling Visuals from Entity Types</p1></li>
+                    <li><p1>Day 290: Finishing Separated Rendering</p1></li>
+                    <li><p1>Day 291: Hopping Monstar and Occupying Trees</p1></li>
+                    <li><p1>Day 292: Implementing Snakes</p1></li>
+                    <li><p1>Day 293: Moving Familiars</p1></li>
+                    <li><p1>Day 294: Adding the Glove</p1></li>
+                    <li><p1>Day 295: Stacking Rooms for Z Layer Debugging</p1></li>
+                    <li><p1>Day 296: Fog and Alpha for Layers</p1></li>
+                    <li><p1>Day 297: Separating Entities into Z Layers</p1></li>
+                    <li><p1>Day 298: Improving Sort Keys Part 1</p1></li>
+                    <li><p1>Day 299: Improving Sort Keys Part 2</p1></li>
+                    <li><p1>Day 300: Changing from Sort Keys to Sort Rules</p1></li>
+                    <li><p1>Day 301: Sorting with Sprite Bounds</p1></li>
+                    <li><p1>Day 302: Confirming No Total Ordering</p1></li>
+                    <li><p1>Day 303: Trying Separate Y and Z Sorts</p1></li>
+                    <li><p1>Day 304: Building and Traversing Graphs</p1></li>
+                    <li><p1>Day 305: Using Memory Arenas in the Platform Layer</p1></li>
+                    <li><p1>Day 306: Debugging Graph-based Sort</p1></li>
+                    <li><p1>Day 307: Visualizing Sort Groups</p1></li>
+                    <li><p1>Day 308: Debugging the Cycle Check</p1></li>
+                    <li><p1>Day 309: Grid Partitioning for Overlap Testing</p1></li>
+                    <li><p1>Day 310: Finishing Sort Acceleration via Gridding</p1></li>
+                    <li><p1>Day 311: Allowing Manual Sorting</p1></li>
+                    <li><p1>Day 312: Cross-entity Manual Sorting</p1></li>
+                    <li><p1>Day 313: Returning to Work on Z Layers</p1></li>
+                    <li><p1>Day 314: Breaking Sprites into Layers</p1></li>
+                    <li><p1>Day 315: Un-reversing Sort Key Order</p1></li>
+                    <li><p1>Day 316: Multiple Software Render Targets</p1></li>
+                    <li><p1>Day 317: Alpha Blending Multiple Render Targets</p1></li>
+                    <li><p1>Day 318: Optimizing Render Target Blends and Clears</p1></li>
+                    <li><p1>Day 319: Inverse and Transpose Matrices</p1></li>
+                    <li><p1>Day 320: Inverting a 2x2 Matrix by Hand</p1></li>
+                    <li><p1>Day 321: Multiple OpenGL Render Targets</p1></li>
+                    <li><p1>Day 322: Handling Multiple Display Aspect Ratios</p1></li>
+                    <li><p1>Day 323: Fixing Miscellaneous Bugs</p1></li>
+                    <li><p1>Day 324: Moving Away from Multiple OpenGL Contexts</p1></li>
+                    <li><p1>Day 325: Ticket Mutexes</p1></li>
+                    <li><p1>Day 326: Vararg Functions</p1></li>
+                    <li><p1>Day 327: Parsing Printf Format Strings</p1></li>
+                    <li><p1>Day 328: Integer and String Support in Printf</p1></li>
+                    <li><p1>Day 329: Printing Out Floats Poorly</p1></li>
+                    <li><p1>Day 330: Fixings Bugs from the Issue List</p1></li>
+                    <li><p1>Day 331: Activating Entities by Brain</p1></li>
+                    <li><p1>Day 332: Disabling Sort for Debug Overlays</p1></li>
+                    <li><p1>Day 333: Floor-relative Perspective Transforms</p1></li>
+                    <li><p1>Day 334: Adding Boost Pads</p1></li>
+                    <li><p1>Day 335: Moving Entities on Boost Squares</p1></li>
+                    <li><p1>Day 336: Adding a Particle System Cache</p1></li>
+                    <li><p1>Day 337: Convenient SIMD for Particles</p1></li>
+                    <li><p1>Day 338: Simulation-space Particles</p1></li>
+                    <li><p1>Day 339: Debugging Particle Camera Offset Motion</p1></li>
+                    <li><p1>Day 340: Cleaning Up World / Sim-Region Interactions</p1></li>
+                    <li><p1>Day 341: Dynamically Growing Arenas</p1></li>
+                    <li><p1>Day 342: Supporting Temporary Memory in Dynamic Arenas</p1></li>
+                    <li><p1>Day 343: Saving and Restoring Dynamically Allocated Memory Pages</p1></li>
+                    <li><p1>Day 344: Selective Memory Restoration</p1></li>
+                    <li><p1>Day 345: Protecting Memory Pages for Underflow Detection</p1></li>
+                    <li><p1>Day 346: Consolidating Memory Block Headers</p1></li>
+                    <li><p1>Day 347: Debugging Win32 Memory List Corruption</p1></li>
+                    <li><p1>Day 348: Debugging Cutscene Z and Traversable Creation</p1></li>
+                    <li><p1>Day 349: Running Multiple Sim Regions</p1></li>
+                    <li><p1>Day 350: Multithreaded World Simulation</p1></li>
+                    <li><p1>Day 351: Optimizing Multithreaded Simulation Regions</p1></li>
+                    <li><p1>Day 352: Isolating the Camera Update Code</p1></li>
+                    <li><p1>Day 353: Simple RLE Compression</p1></li>
+                    <li><p1>Day 354: Simple LZ Compression</p1></li>
+                    <li><p1>Day 355: Clearing Out Pending GitHub Bugs</p1></li>
+                    <li><p1>Day 356: Making the Debug System CLANG Compatible</p1></li>
+                    <li><p1>Day 357: Room-based Camera Zoom</p1></li>
+                    <li><p1>Day 358: Introduction to Depth Buffers</p1></li>
+                    <li><p1>Day 359: OpenGL Projection Matrices Revisited</p1></li>
+                    <li><p1>Day 360: Moving the Perspective Divide to OpenGL</p1></li>
+                    <li><p1>Day 361: Introduction to 3D Rotation Matrices</p1></li>
+                    <li><p1>Day 362: Matrix Multiplication and Transform Order</p1></li>
+                    <li><p1>Day 363: Making an Orbiting Debug Camera</p1></li>
+                    <li><p1>Day 364: Enabling the OpenGL Depth Buffer</p1></li>
+                    <li><p1>Day 365: Adjusting Sprite Cards to Counter Projection</p1></li>
+                    <li><p1>Day 366: Adding Cubes to the Renderer</p1></li>
+                    <li><p1>Day 367: Enabling OpenGL Multisampling</p1></li>
+                    <li><p1>Day 368: Compiling and Linking Shaders in OpenGL</p1></li>
+                    <li><p1>Day 369: Introduction to Vertex and Fragment Shaders</p1></li>
+                    <li><p1>Day 370: Shader Fallback sRGB</p1></li>
+                    <li><p1>Day 371: OpenGL Vertex Arrays</p1></li>
+                    <li><p1>Day 372: Using Strictly OpenGL Core Profile</p1></li>
+                    <li><p1>Day 373: Inverting the Full 3D Transform</p1></li>
+                    <li><p1>Day 374: Debugging Z Transform and Bias</p1></li>
+                    <li><p1>Day 375: Adding Distance-based Fog</p1></li>
+                    <li><p1>Day 376: Drawing Debug Volumes</p1></li>
+                    <li><p1>Day 377: Improving Collision Volumes and the Camera</p1></li>
+                    <li><p1>Day 378: Adding More Camera Behaviors</p1></li>
+                    <li><p1>Day 379: Debug Overlay Cleanup and Render Group Performance Investigation</p1></li>
+                    <li><p1>Day 380: Attempting (and Failing) to Fix the Clock</p1></li>
+                    <li><p1>Day 381: Two-pass Depth Peeling</p1></li>
+                    <li><p1>Day 382: Depth Peel Compositing</p1></li>
+                    <li><p1>Day 383: Fixing Depth Peel Artifacts</p1></li>
+                    <li><p1>Day 384: Dynamically Responding to Render Settings</p1></li>
+                    <li><p1>Day 385: Trying Multisampled Depth Peels</p1></li>
+                    <li><p1>Day 386: Implementing a Custom Multisample Resolve</p1></li>
+                    <li><p1>Day 387: Further Attempts at Multisampled Depth Peeling</p1></li>
+                    <li><p1>Day 388: Successful Multisampled Depth-Peeling</p1></li>
+                    <li><p1>Day 389: Adding Simple Lighting</p1></li>
+                    <li><p1>Day 390: Adding Simple Phong Lighting</p1></li>
+                    <li><p1>Day 391: Planning Better Lighting</p1></li>
+                    <li><p1>Day 392: Creating Lighting Textures</p1></li>
+                    <li><p1>Day 393: Planning Lighting from Depth Peels</p1></li>
+                    <li><p1>Day 394: Basic Multigrid Lighting Upward Iteration</p1></li>
+                    <li><p1>Day 395: Basic Multigrid Lighting Down Iteration</p1></li>
+                    <li><p1>Day 396: Rendering Lighting Information from the Game</p1></li>
+                    <li><p1>Day 397: Converting Depth Peel Data to Lighting Data</p1></li>
+                    <li><p1>Day 398: Applying Lighting Back to Depth Peels</p1></li>
+                    <li><p1>Day 399: Creating a CPU-side Lighting Testbed</p1></li>
+                    <li><p1>Day 400: Adding an Ambient Occlusion Pass</p1></li>
+                    <li><p1>Day 401: Debugging Lighting Transfer</p1></li>
+                    <li><p1>Day 402: Adding Raycasting to the Lighting</p1></li>
+                    <li><p1>Day 403: Off-line Lighting and Per-vertex Reflectors</p1></li>
+                    <li><p1>Day 404: Voxel-Indexed Lighting Samples</p1></li>
+                    <li><p1>Day 405: Crashing the Stream with a Fragment Shader</p1></li>
+                    <li><p1>Day 406: Getting a Graphics Debugger Working</p1></li>
+                    <li><p1>Day 407: Starting to Debug Volume Textures</p1></li>
+                    <li><p1>Day 408: Finishing Debugging Volume Textures</p1></li>
+                    <li><p1>Day 409: Smoother Blending of Lighting Samples</p1></li>
+                    <li><p1>Day 410: Tracking Incident Light</p1></li>
+                    <li><p1>Day 411: Switching to Rectangular Lighting Elements</p1></li>
+                    <li><p1>Day 412: Debugging Voxel Interpolation</p1></li>
+                    <li><p1>Day 413: Encoding Light Values</p1></li>
+                    <li><p1>Day 414: Improving Light Distribution</p1></li>
+                    <li><p1>Day 415: Per-primitive Lighting Samples</p1></li>
+                    <li><p1>Day 416: Separating Lighting and Geometry Submission</p1></li>
+                    <li><p1>Day 417: Adding a Debug View for Lighting Points</p1></li>
+                    <li><p1>Day 418: Smoothing Light Samples Over Time</p1></li>
+                    <li><p1>Day 419: Debugging Missing Lighting</p1></li>
+                    <li><p1>Day 420: Pushing Lighting Information Directly</p1></li>
+                    <li><p1>Day 421: Passing Lighting as Boxes</p1></li>
+                    <li><p1>Day 422: Raycasting AABBs Directly</p1></li>
+                    <li><p1>Day 423: Modifying Lighting to Use a Spatial Hierarchy</p1></li>
+                    <li><p1>Day 424: Modifying Lighting to Use a Spatial Hierarchy</p1></li>
+                    <li><p1>Day 425: Entity-based Lighting Storage</p1></li>
+                    <li><p1>Day 426: Debugging Lighting Persistence</p1></li>
+                    <li><p1>Day 427: Debugging Lighting Flicker</p1></li>
+                    <li><p1>Day 428: Tracking Light Proportional to Photons per Second</p1></li>
+                    <li><p1>Day 429: Multiresolution Light Sampling</p1></li>
+                    <li><p1>Day 430: Stratifying and Multithreading the Lighting</p1></li>
+                    <li><p1>Day 431: SIMD Raycasting</p1></li>
+                    <li><p1>Day 432: Finishing the Main SIMD Raycasting Loop</p1></li>
+                    <li><p1>Day 433: Optimizing Ray vs. AABB Intersections</p1></li>
+                    <li><p1>Day 434: Replacing the Pseudo-random Number Generator</p1></li>
+                    <li><p1>Day 435: Removing the CRT from the Win32 Loader</p1></li>
+                    <li><p1>Day 436: Spiral and Blue Noise Distributions on the Sphere</p1></li>
+                    <li><p1>Day 437: Switching to Precomputed Hemisphere Distributions</p1></li>
+                    <li><p1>Day 438: Switching to Cosine-weighted Poisson Sampling</p1></li>
+                    <li><p1>Day 439: Testing Better Entropy</p1></li>
+                    <li><p1>Day 440: Introduction to Function Approximation with Andrew Bromage</p1></li>
+                    <li><p1>Day 441: Never, Ever Update Your Development Tools. Ever.</p1></li>
+                    <li><p1>Day 442: Getting NSight Working</p1></li>
+                    <li><p1>Day 443: Updating the Player Movement Code</p1></li>
+                    <li><p1>Day 444: Stubbing Out the World Generator</p1></li>
+                    <li><p1>Day 445: Cleaning Up Entity Creation</p1></li>
+                    <li><p1>Day 446: Generating Possible Room Volumes</p1></li>
+                    <li><p1>Day 447: Placing Adjacent Rooms</p1></li>
+                    <li><p1>Day 448: Explicitly Placed Room Connections</p1></li>
+                    <li><p1>Day 449: Preventing Overlapping Rooms</p1></li>
+                    <li><p1>Day 450: Supporting All Room Connection Directions</p1></li>
+                    <li><p1>Day 451: Updating Unproject</p1></li>
+                    <li><p1>Day 452: Improving Camera Placement and Room Alignment</p1></li>
+                    <li><p1>Day 453: Parsing PNG Headers</p1></li>
+                    <li><p1>Day 454: Parsing ZLIB Headers</p1></li>
+                    <li><p1>Day 455: Decoding PNG Huffman Tables</p1></li>
+                    <li><p1>Day 456: Decoding PNG Length and Distance Extra Bits</p1></li>
+                    <li><p1>Day 457: Implementing PNG Reconstruction Filters</p1></li>
+                    <li><p1>Day 458: Debugging the PNG Reader</p1></li>
+                    <li><p1>Day 459: Partitioning the PNG Reader for Integration</p1></li>
+                    <li><p1>Day 460: Providing Platform File Information to the Game</p1></li>
+                    <li><p1>Day 461: Checking for File Date Changes</p1></li>
+                    <li><p1>Day 462: Extracting Asset Tiles from Gridded PNGs</p1></li>
+                    <li><p1>Day 463: Preparing HHAs for Rewriting</p1></li>
+                    <li><p1>Day 464: Applying Asset Types and Tags to Imported PNGs</p1></li>
+                    <li><p1>Day 465: Updating HHAs from V0 to V1</p1></li>
+                    <li><p1>Day 466: Loading and Displaying HHA Files as Text</p1></li>
+                    <li><p1>Day 467: Updating the Game to HHA Version 1</p1></li>
+                    <li><p1>Day 468: Handling Annotation Data During Import</p1></li>
+                    <li><p1>Day 469: Downsampling Imported Assets</p1></li>
+                    <li><p1>Day 470: Separating the Renderer Completely (Part 1)</p1></li>
+                    <li><p1>Day 471: Separating the Renderer Completely (Part 2)</p1></li>
+                    <li><p1>Day 472: Making a Simple Scene with the Separated Renderer</p1></li>
+                    <li><p1>Day 473: Removing Screen Coordinates from the Render Group</p1></li>
+                    <li><p1>Day 474: Removing the Transient State Concept</p1></li>
+                    <li><p1>Day 475: Abstracting the Renderer Interface</p1></li>
+                    <li><p1>Day 476: Providing Convenient Camera Controls</p1></li>
+                    <li><p1>Day 477: Changing to Single Dispatch Per Pass (Part 1)</p1></li>
+                    <li><p1>Day 478: Changing to Single Dispatch Per Pass (Part 2)</p1></li>
+                    <li><p1>Day 479: Large Texture Support</p1></li>
+                    <li><p1>Day 480: Debugging Large Texture Support</p1></li>
+                    <li><p1>Day 481: Encoding Cube UVs</p1></li>
+                    <li><p1>Day 482: Associating Tags with PNGs</p1></li>
+                    <li><p1>Day 483: Debugging Tagged PNG Imports</p1></li>
+                    <li><p1>Day 484: Debugging Multi-tile Import</p1></li>
+                    <li><p1>Day 485: Adding Entity Placement to the World Generator</p1></li>
+                    <li><p1>Day 486: Adding Multiple Alignment Points</p1></li>
+                    <li><p1>Day 487: Hit-Testing Boxes in 3D</p1></li>
+                    <li><p1>Day 488: Adding an In-Game Editor</p1></li>
+                    <li><p1>Day 489: Implementing Undo and Redo</p1></li>
+                    <li><p1>Day 490: Merging Debug and Developer UI</p1></li>
+                    <li><p1>Day 491: Debugging the Basic Editor UI</p1></li>
+                    <li><p1>Day 492: Adding More Editor Interactions</p1></li>
+                    <li><p1>Day 493: Cleaning Up the Editor UI Layout</p1></li>
+                    <li><p1>Day 494: Preparing Entity Pieces for Alignment Points</p1></li>
+                    <li><p1>Day 495: Improving the Alignment Editing UI</p1></li>
+                    <li><p1>Day 496: Debugging Attachment Point Transforms</p1></li>
+                    <li><p1>Day 497: Starting on Asset System Cleanup</p1></li>
+                    <li><p1>Day 498: Finishing Asset System Cleanup</p1></li>
+                    <li><p1>Day 499: Unifying Debug and Editor Modes</p1></li>
+                    <li><p1>Day 500: Saving HHAs Modified by the In-Game Editor</p1></li>
+                    <li><p1>Day 501: Importing Orphans</p1></li>
+                    <li><p1>Day 502: Adding Stairs to the Generator</p1></li>
+                    <li><p1>Day 503: Constructing a Camera Easing Function</p1></li>
+                    <li><p1>Day 504: Exploring Camera Interpolation Alternatives</p1></li>
+                    <li><p1>Day 505: Placing Multiple Entities at a Time</p1></li>
+                    <li><p1>Day 506: Improving Camera Motion</p1></li>
+                    <li><p1>Day 507: LRU Texture Handle Reuse</p1></li>
+                    <li><p1>Day 508: Fixing the Remaining GitHub Issues</p1></li>
+                    <li><p1>Day 509: Creating Tags Files</p1></li>
+                    <li><p1>Day 510: Making a Parser for HHTs</p1></li>
+                    <li><p1>Day 511: Merging HHT Parsing into the Asset System</p1></li>
+                    <li><p1>Day 512: Updating Assets via HHT Files</p1></li>
+                    <li><p1>Day 513: Adding Raw Tokens and Alignment Point Parsing</p1></li>
+                    <li><p1>Day 514: Separating Image and Metadata Imports</p1></li>
+                    <li><p1>Day 515: Debugging HHT to HHA Packing</p1></li>
+                    <li><p1>Day 516: Rewriting HHTs</p1></li>
+                    <li><p1>Day 517: Inserting and Rewriting HHT Alignment Points</p1></li>
+                    <li><p1>Day 518: Displaying Import Errors</p1></li>
+                    <li><p1>Day 519: Brainstorming about Z Bias</p1></li>
+                    <li><p1>Day 520: Solving for Debug Camera Parameters</p1></li>
+                    <li><p1>Day 521: Debugging Missing Parent Pointers</p1></li>
+                    <li><p1>Day 522: Solving for Sorting Displacement</p1></li>
+                    <li><p1>Day 523: Introduction to Git</p1></li>
+                    <li><p1>Day 524: Integrating WAV Importing</p1></li>
+                    <li><p1>Day 525: Cleaning Up Import Tag Grids</p1></li>
+                    <li><p1>Day 526: Single-Buffer Sound Streaming</p1></li>
+                    <li><p1>Day 527: Making a Stand-Alone Font Extractor</p1></li>
+                    <li><p1>Day 528: Writing HHTs from HHFont</p1></li>
+                    <li><p1>Day 529: Debugging the PNG Writer</p1></li>
+                    <li><p1>Day 530: Writing Large PNGs and Supersampling Fonts</p1></li>
+                    <li><p1>Day 531: Parsing and Updating Font Metadata</p1></li>
+                    <li><p1>Day 532: Finishing HHT-Based Font Importing</p1></li>
+                    <li><p1>Day 533: Importing Particles, Scenery, and Items</p1></li>
+                    <li><p1>Day 534: Heuristic Alpha Testing for Multi-Tile Import</p1></li>
+                    <li><p1>Day 535: Minor Art Update, Reenabling Particles, Glove Fixes</p1></li>
+                    <li><p1>Day 536: Proper Variant Distributions and Issue Cleanup</p1></li>
+                    <li><p1>Day 537: Filling Areas Around Rooms</p1></li>
+                    <li><p1>Day 538: Making a Grid-based Layout Helper</p1></li>
+                    <li><p1>Day 539: Capturing Source Information for Memory Allocations</p1></li>
+                    <li><p1>Day 540: Adding Memory Usage Visualization</p1></li>
+                    <li><p1>Day 541: Adding Call Sites to the Arena Display</p1></li>
+                    <li><p1>Day 542: Drawing Memory Occupancy Accurately</p1></li>
+                    <li><p1>Day 543: Moving Unpacked Entities from the Sim Region to World</p1></li>
+                    <li><p1>Day 544: Caching Unpacked Entities Across Frames</p1></li>
+                    <li><p1>Day 545: Adding Ground Cover</p1></li>
+                    <li><p1>Day 546: GPU MIP Mapping</p1></li>
+                    <li><p1>Day 547: Starting the Move to Light Probes</p1></li>
+                    <li><p1>Day 548: Voxelizing Light Probes</p1></li>
+                    <li><p1>Day 549: Removing Old Lighting Lookups</p1></li>
+                    <li><p1>Day 550: SIMD Raycast Point and Normal Computations</p1></li>
+                    <li><p1>Day 551: Computing Probe to Probe Transmission</p1></li>
+                    <li><p1>Day 552: Generating Sampling Spheres into an INL</p1></li>
+                    <li><p1>Day 553: Improved Sphere Distributions</p1></li>
+                    <li><p1>Day 554: Reducing GPU Memory Footprint</p1></li>
+                    <li><p1>Day 555: Looking for GPU Performance Issues</p1></li>
+                    <li><p1>Day 556: Optimizing Depth Peeling and Multisample Resolves</p1></li>
+                    <li><p1>Day 557: Basic Dynamic Quad Output Optimizations</p1></li>
+                    <li><p1>Day 558: Assigning Lighting Probe Slots</p1></li>
+                    <li><p1>Day 559: Experimenting with Fragment Light Sampling</p1></li>
+                    <li><p1>Day 560: Querying Irradiance Directly from Voxels</p1></li>
+                    <li><p1>Day 561: Sampling Light Voxels with a Reflection Vector</p1></li>
+                    <li><p1>Day 562: Testing Voxel Light Sampling</p1></li>
+                    <li><p1>Day 563: Using the Light Probe Spatial Index</p1></li>
+                    <li><p1>Day 564: Improving Trilinear Sampling Results</p1></li>
+                    <li><p1>Day 565: Reconstructing Multiple Lights</p1></li>
+                    <li><p1>Day 566: Moving to a Voxels-only Lighting Approach</p1></li>
+                    <li><p1>Day 567: Large to Small Voxel Transfer</p1></li>
+                    <li><p1>Day 568: Debugging the Raycaster</p1></li>
+                    <li><p1>Day 569: Raycasting from Light Probe Locations</p1></li>
+                    <li><p1>Day 570: Distinguishing Between Lights and Occluders</p1></li>
+                    <li><p1>Day 571: Adding a Light Hierarchy</p1></li>
+                    <li><p1>Day 572: Scrolling the Lighting Voxel</p1></li>
+                    <li><p1>Day 573: Wiring Up Light Transport</p1></li>
+                    <li><p1>Day 574: Experimenting with Voxel Filters</p1></li>
+                    <li><p1>Day 575: Generalizing Code Reloading</p1></li>
+                    <li><p1>Day 576: Octahedral Encoding</p1></li>
+                    <li><p1>Day 577: Adding Octahedral Light Atlases</p1></li>
+                    <li><p1>Day 578: Sampling Octahedral Atlases</p1></li>
+                    <li><p1>Day 579: Debugging Octahedral Shading</p1></li>
+                    <li><p1>Day 580: Investigating Octahedral Interpolation</p1></li>
+                    <li><p1>Day 581: Preparing for Octahedral Indirect Lighting</p1></li>
+                    <li><p1>Day 582: Converting Specular Maps to Diffuse</p1></li>
+                    <li><p1>Day 583: Streamlining the New Lighting Pipeline</p1></li>
+                    <li><p1>Day 584: Enabling Infinite-Bounce Lighting</p1></li>
+                    <li><p1>Day 585: Centralized Light Atlas Handling</p1></li>
+                    <li><p1>Day 586: Finishing Indirect Diffuse Sampling</p1></li>
+                    <li><p1>Day 587: Optimizing the Specular to Diffuse Transform</p1></li>
+                    <li><p1>Day 588: Aligning Light Voxels with the Camera</p1></li>
+                    <li><p1>Day 589: Aligning Sampling Spheres with the Octahedral Map</p1></li>
+                    <li><p1>Day 590: Starting Raycast Optimizations</p1></li>
+                    <li><p1>Day 591: Making a Stand-alone Lighting Performance Test</p1></li>
+                    <li><p1>Day 592: Capturing the Entire Lighting Data</p1></li>
+                    <li><p1>Day 593: Debugging Lighting Validation</p1></li>
+                    <li><p1>Day 594: Switching from Center-Radius to Min-Max</p1></li>
+                    <li><p1>Day 595: Sketching Out A K-d Tree Loop</p1></li>
+                    <li><p1>Day 596: Fleshing Out Kd-Tree Traversal</p1></li>
+                    <li><p1>Day 597: Basic Kd-tree Construction</p1></li>
+                    <li><p1>Day 598: Exploring Voxel Partitions for Raycasting</p1></li>
+                    <li><p1>Day 599: Implementing the Grid Raycast Postamble</p1></li>
+                    <li><p1>Day 600: Better AABB Normal Derivation</p1></li>
+                    <li><p1>Day 601: Sketching Out the Walk Table Generator</p1></li>
+                    <li><p1>Day 602: Early Termination for the Grid Raytracer</p1></li>
+                    <li><p1>Day 603: Grid Raycaster Table Generation</p1></li>
+                    <li><p1>Day 604: Adding a Voxel Utility Struct</p1></li>
+                    <li><p1>Day 605: Cleaning Up the Lighting Code</p1></li>
+                    <li><p1>Day 606: Debugging Grid Raycasting with Visualizations</p1></li>
+                    <li><p1>Day 607: Finishing Debugging the Grid Raycaster</p1></li>
+                    <li><p1>Day 608: Visualizing Lighting Values</p1></li>
+                    <li><p1>Day 609: Reducing Light Contributions from Inaccessible Voxels</p1></li>
+                    <li><p1>Day 610: Removing Incorrect Voxel-Voxel Reflections</p1></li>
+                    <li><p1>Day 611: Examining the CPU Voxel Sampling</p1></li>
+                    <li><p1>Day 612: First Pass Optimization of Voxel Sampling</p1></li>
+                    <li><p1>Day 613: Merging the Raycaster with the Sampler</p1></li>
+                    <li><p1>Day 614: Continuing Streamlining the Raycaster</p1></li>
+                    <li><p1>Day 615: Optimized Grid Step Selection</p1></li>
+                    <li><p1>Day 616: Tableless Grid Walk</p1></li>
+                    <li><p1>Day 617: Half-resolution Spatial Grid</p1></li>
+                    <li><p1>Day 618: Analyzing the Diffuse Blur</p1></li>
+                    <li><p1>Day 619: Adding Asset Tag Hashes</p1></li>
+                    <li><p1>Day 620: Asset Tag Usage Code</p1></li>
+                    <li><p1>Day 621: Asset Tags in the World Generator</p1></li>
+                    <li><p1>Day 622: Debugging Asset Tag Hashes</p1></li>
+                    <li><p1>Day 623: Investigating a Lighting Bug</p1></li>
+                    <li><p1>Day 624: Turns Out It Really WAS a Feature</p1></li>
+                    <li><p1>Day 625: Fixing the "Lighting" Bug</p1></li>
+                    <li><p1>Day 626: Cleaning Up Traversables</p1></li>
+                    <li><p1>Day 627: Opening Doors with Tiles</p1></li>
+                    <li><p1>Day 628: Brains and Aprons</p1></li>
+                    <li><p1>Day 629: Removing Entity Generators</p1></li>
+                    <li><p1>Day 630: Adding Interesting Tile Patterns</p1></li>
+                    <li><p1>Day 631: Revisiting Collision</p1></li>
+                    <li><p1>Day 632: Experimenting with Voxelized Collision</p1></li>
+                    <li><p1>Day 633: Narrowing in on a Collision Scheme</p1></li>
+                    <li><p1>Day 634: Final Collision Resolution Design</p1></li>
+                    <li><p1>Day 635: Debugging Voxel Motion Stepping</p1></li>
+                    <li><p1>Day 636: Unembedding Colliding Objects</p1></li>
+                    <li><p1>Day 637: Adding Collision Spheres</p1></li>
+                    <li><p1>Day 638: Recording Diagram Commands</p1></li>
+                    <li><p1>Day 639: Drawing Debug Diagrams</p1></li>
+                    <li><p1>Day 640: Investigating Corner Collisions</p1></li>
+                    <li><p1>Day 641: Voxel Flood Fill for Collision Search</p1></li>
+                    <li><p1>Day 642: Debugging Voxel Collision Bounds</p1></li>
+                    <li><p1>Day 643: Hunting for Collision Bugs</p1></li>
+                    <li><p1>Day 644: Stepping Through Diagrams</p1></li>
+                    <li><p1>Day 645: Switching to Voxel Centers for Collision</p1></li>
+                    <li><p1>Day 646: Removing Z from Lighting</p1></li>
+                    <li><p1>Day 647: Debugging Simplified Lighting</p1></li>
+                    <li><p1>Day 648: Rebuilding Light Tables</p1></li>
+                    <li><p1>Day 649: Removing Lighting Walk Tables</p1></li>
+                    <li><p1>Day 650: Debugging Light Sampling Locations</p1></li>
+                    <li><p1>Day 651: Fixing Light Feedback</p1></li>
+                    <li><p1>Day 652: Stochastic Ray Origins</p1></li>
+                    <li><p1>Day 653: Adding a Filmic Response Curve</p1></li>
+                    <li><p1>Day 654: Self-illuminating Floor Tiles</p1></li>
+                    <li><p1>Day 655: Revisiting Entity Movement</p1></li>
+                    <li><p1>Day 656: Sketching Out Move Queues</p1></li>
+                    <li><p1>Day 657: Implementing Move Queues</p1></li>
+                    <li><p1>Day 658: Handling Glove Collisions</p1></li>
+                    <li><p1>Day 659: Immediate-mode Level Generation</p1></li>
+                    <li><p1>Day 660: Randomized Overworld Layout</p1></li>
+                    <li><p1>Day 661: Connecting the Overworld Map</p1></li>
+                    <li><p1>Day 662: Generating Entities from Layouts</p1></li>
+                    <li><p1>Day 663: Simplifying Entity Storage, Part I</p1></li>
+                    <li><p1>Day 664: Simplifying Entity Storage Part II</p1></li>
+                    <li><p1>Day 665: Changing How Entities are Packed and Unpacked</p1></li>
+                    <li><p1>Day 666: Entity Packing and Unpacking</p1></li>
+                    <li><p1>Day 667: Simplified Tile Occupancy Checking</p1></li>
+                </ul>
+                </details>
+                
+                <details>
+                <summary>Опыт программирования Windows API</summary>
+                <ul>
+                    <li>
+                        <p1>Window creation</p1>
+                    </li>
+                    <li>
+                        <p1>Basic Windows Graphics</p1>
+                    </li>
+                    <li>
+                        <p1>Sine Wave Sound with DirectSound</p1>
+                    </li>
+                    <li>
+                        <p1>Gamepad & Keyboard inputs processing (platform-independent)</p1>
+                    </li>
+                    <li>
+                        <p1>Game memory (platform-independent)</p1>
+                    </li>
+                    <li>
+                        <p1>Debug File I/O (platform-independent)</p1>
+                    </li>
+                    <li>
+                        <p1>Visual Studio Compiler parameters</p1>
+                    </li>
+                    <li>
+                        <p1>FPS lock with QueryPerformanceCounter and RDTSC</p1>
+                    </li>
+                    <li>
+                        <p1>Looped live code editing</p1>
+                    </li>
+                    <li>
+                        <p1>Bitmap (loading, rendering)</p1>
+                    </li>
+                    <li>
+                        <p1>Fullscreen support</p1>
+                    </li>
+                    <li>
+                        <p1>OpenGL init</p1>
+                    </li>
+                    <li>
+                        <p1>Multithreading</p1>
+                    </li>
+                    <li>
+                        <p1>WASAPI</p1>
+                    </li>
+                </ul>
+                </details>
+
+                <details>
+                <summary>Опыт программирования подсистем</summary>
+                <ul>
+                    <li>
+                        <p1>2D Vectors (The Equation of Motion, Reflecting Vectors)</p1>
+                    </li>
+                    <li>
+                        <p1>Collision Detection</p1>
+                    </li>
+                    <li>
+                        <p1>Tilemap system</p1>
+                    </li>
+                    <li>
+                        <p1>Hash-based World Storage</p1>
+                    </li>
+                    <li>
+                        <p1>Simulation regions</p1>
+                    </li>
+                    <li>
+                        <p1>Entity system</p1>
+                    </li>
+                    <li>
+                        <p1>Simple OBJ parser</p1>
+                    </li>
+                    <li>
+                        <p1>Simple Mtl parser</p1>
+                    </li>
+                    <li>
+                        <p1>Drawing OBJ with Mtl material</p1>
+                    </li>
+                    <li>
+                        <p1>Vertex Array Objects</p1>
+                    </li>
+                    <li>
+                        <p1>Rendering OBJ throught OpenGL with VAO+VBO and shader</p1>
+                    </li>
+                    <li>
+                        <p1>Separate application with Assimp library for loading and export meshes into my personal
+                            asset files</p1>
+                    </li>
+                    <li>
+                        <p1>Rendering multiple meshes throught one VBO</p1>
+                    </li>
+                    <li>
+                        <p1>Import and rendring 3d meshes with skeletal animations from personal asset file</p1>
+                    </li>
+                    <li>
+                        <p1>Directional light in shader (Phong model)</p1>
+                    </li>
+                    <li>
+                        <p1>Point lights in shader (Phong model)</p1>
+                    </li>
+                    <li>
+                        <p1>Spot lights in shader (Phong model)</p1>
+                    </li>
+                    <li>
+                        <p1>Normal mapping in shader</p1>
+                    </li>
+                    <li>
+                        <p1>ImGui debug info</p1>
+                    </li>
+                    <li>
+                        <p1>ImPlot profiler</p1>
+                    </li>
+                    <li>
+                        <p1>Asset system</p1>
+                    </li>
+                    <li>
+                        <p1>Custom profiler</p1>
+                    </li>
+                    <li>
+                        <p1>Custom UI</p1>
+                    </li>
+                    <li>
+                        <p1>Physics</p1>
+                    </li>
+                </ul>
+                </details>
+
+                <details>
+                <summary>Опыт программирования на OpenGL</summary>
+                <ul>
+                    <li>
+                        <p1>Triangle drawing</p1>
+                    </li>
+                    <li>
+                        <p1>Drawing points, lines, circles</p1>
+                    </li>
+                    <li>
+                        <p1>Transformation matrices: Translate, Scale, Rotate</p1>
+                    </li>
+                    <li>
+                        <p1>Minesweeper game</p1>
+                    </li>
+                    <li>
+                        <p1>Drawing 2d scene (small village) with triagnle, squares and circles</p1>
+                    </li>
+                    <li>
+                        <p1>Drawing sin and cos graph</p1>
+                    </li>
+                    <li>
+                        <p1>Drawing with Index & Vertex arrays</p1>
+                    </li>
+                    <li>
+                        <p1>Orthogonal and Perspective projections</p1>
+                    </li>
+                    <li>
+                        <p1>3d camera and movement</p1>
+                    </li>
+                    <li>
+                        <p1>3d shooter with Back buffer</p1>
+                    </li>
+                    <li>
+                        <p1>Terrain creation</p1>
+                    </li>
+                    <li>
+                        <p1>Lighting</p1>
+                    </li>
+                    <li>
+                        <p1>2d texturing</p1>
+                    </li>
+                    <li>
+                        <p1>Color blending and alpha channel</p1>
+                    </li>
+                    <li>
+                        <p1>Creation Location with textured objects</p1>
+                    </li>
+                    <li>
+                        <p1>Creation Minecraft like trees</p1>
+                    </li>
+                    <li>
+                        <p1>Day and night</p1>
+                    </li>
+                    <li>
+                        <p1>Selecting objects with Back buffer</p1>
+                    </li>
+                    <li>
+                        <p1>Looting game with grass, mushrooms and flowers (collection and using items)</p1>
+                    </li>
+                    <li>
+                        <p1>Game HUD</p1>
+                    </li>
+                    <li>
+                        <p1>Buffs and status effects after using items with showing remaining time</p1>
+                    </li>
+                    <li>
+                        <p1>Drag-and-drop interface</p1>
+                    </li>
+                    <li>
+                        <p1>Crafting potions from collected items</p1>
+                    </li>
+                    <li>
+                        <p1>Font drawing as bitmap</p1>
+                    </li>
+                    <li>
+                        <p1>Using GLAD library</p1>
+                    </li>
+                    <li>
+                        <p1>Vertex Buffer Object</p1>
+                    </li>
+                    <li>
+                        <p1>Element Buffer Object</p1>
+                    </li>
+                    <li>
+                        <p1>Basic shader creation and using</p1>
+                    </li>
+                    <li>
+                        <p1>Drawing texture with shader</p1>
+                    </li>
+                    <li>
+                        <p1>Skybox creation</p1>
+                    </li>
+                    <li>
+                        <p1>Water (FBO+RBO, Water Shader, Clipping Planes, DuDv Texture, Fresnel Effect, Normal Map)</p1>
+                    </li>
+                    <li>
+                        <p1>Shadow Mapping (Depth Map from Depth Buffer, Depth Shader, Shadow Shader, Shadow acne, Peter panning, PCF)</p1>
+                    </li>
+                    <li>
+                        <p1>Instancing</p1>
+                    </li>
+                </ul>
+                </details>
+                
+                <br>
+                
+                <p>GitHub репозитории</p>
+                <ul>
+                    <li><a href="https://github.com/ezexff/engine" target="_blank">Текущая версия игрового движка</a></li>
+                    <li><a href="https://github.com/ezexff/asset-builder" target="_blank">Текущий билдер ассетов</a></li>
+                    <li><a href="https://github.com/ezexff/learning-notes/tree/main/05%20examples" target="_blank">Примеры программ без CRT</a></li>
+                    <li><a href="https://github.com/ezexff/learning_opengl" target="_blank">Прошлая версия игрового движка</a></li>
+                    <li><a href="https://github.com/ezexff/assets_generator" target="_blank">Старый билдер ассетов для 3d-моделей</a></li>
+                </ul>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="project_container">
+    <table>
+        <tr>
+            <td class="title">
+                <h1>2019: АИС КСГТ</h1>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                <p>
+                    Автоматизированная информационная система (АИС) "Контроль содержания городских территорий",
+                    разработанная для МАУ "ЦМИРиТ", позволяет сотрудникам специализированных подразделений мэрии
+                    города Череповца осуществлять обходы по городским объектам в соответствии со сформированными заранее
+                    планами и выполнять проверки на наличие нарушений.
+                </p>
+                <br>
+
+                <p>GitHub репозитории</p>
+                <ul>
+                    <li><a href="https://github.com/ezexff/ais_ksgt_app" target="_blank">Мобильное приложение</a></li>
+                    <li><a href="https://github.com/ezexff/ais_ksgt_web_service" target="_blank">Веб-сервис</a></li>
+                </ul>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="project_container">
+    <table>
+        <tr>
+            <td class="title">
+                <h1>2019: АИС Google Sheets</h1>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                <p>
+                    Автоматизированная информационная система (АИС) "Google Sheets", разработанная для МАУ "ЦМИРиТ",
+                    позволяет на мобильном устройстве загружать и просматривать в удобном виде (с переносом слов)
+                    отчёты, расположенные в гугл-таблице.
+                </p>
+                <br>
+
+                <p>GitHub репозитории</p>
+                <ul>
+                    <li><a href="https://github.com/ezexff/google_sheets_app" target="_blank">Мобильное приложение</a>
+                    </li>
+                    <li><a href="https://github.com/ezexff/google_sheets_web_service" target="_blank">Веб-сервис</a>
+                    </li>
+                </ul>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="project_container">
+    <table>
+        <tr>
+            <td class="title">
+                <h1>2015-2019: Университет</h1>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                <p>
+                    С 2015 по 2019 год прошёл обучение на бакалавриате <a href="https://www.chsu.ru/"
+                        target="_blank">Череповецкого государственного университета (ЧГУ)</a> по направлению 09.03.01
+                    Информатика и вычислительная техника. <a href="https://cherepovets.hh.ru/article/30908"
+                        target="_blank">ЧГУ в рейтинге лучших вузов России 2021-2022 по версии hh.ru занял девятое
+                        место.</a>
+                </p>
+                <br>
+                <p>GitHub репозиторий</p>
+                <ul>
+                    <li><a href="https://github.com/ezexff/university" target="_blank">Работы, выполненные при обучении
+                            в университете</a>
+                    </li>
+                </ul>
+                <p>Перечень с краткими комментариями по дисциплинам и работам, выполненным во
+                    время обучения:</p>
+                <ul>
+                    <li>
+                        <p1>1 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Основы информационных технологий (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Cоздание блок-схем программ в Microsoft Visio</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Основы программирования (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Написание простейших программ на языке C++ (например, вычисление
+                                            значения функции по заданным параметрам)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Теория обработки информации (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Количественная оценка информации</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Кодирование текстовой информации</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Исследование свойств форматов сжатия графических данных</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Помехоустойчивое кодирование</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Физика (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Определение вязкости жидкости методом Стокса</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Маятник Максвелла. Сложное движение тел</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Изучение закона Максвелла для распределения молекул
+                                            идеального газа по скоростям</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p1>2 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Офисное программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Автоматизация вычислений в Microsoft Excel таблицах с помощью макросов</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Работа с переменными на языке программирования Visual Basic for Applications
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Условные операторы и функции на языке программирования Visual Basic for
+                                            Applications</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Офисное программирование (курсовая работа на тему: Программирование на языке VBA)
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс написания программы, для выполнения
+                                            поставленной задачи, на языке Visual Basic во внутренней среде Microsoft
+                                            Excel.</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Технологии обработки информации (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Основы работы с СУБД Microsoft Access</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Кодирование текстовой информации</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Количественная оценка информации</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Технологии обработки информации (курсовая работа на тему: Практическое применение
+                                    технологий обработки информации)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс работы в программах графической
+                                            визуализации вычислений Matlab и Mathematica, а также выполнено практическое
+                                            задание</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Системный анализ (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Создание и редактирование функциональных моделей IDEF0 в BPwin</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Создание диаграмм декомпозиции, узлов, FEO, расщепление и создание моделей
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Создание диаграммы IDEF3, создание сценария, стоимостный анализ,
+                                            использование UDP категорий</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Структурное программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Вычисление значения функции по заданным параметрам на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Вычисление значения функции в определённом диапазоне (с применением циклов)
+                                            на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Нахождение факториала через рекурсивную функцию на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Массивы на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Работа с оператором switch (case) на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Перегрузка функций на языке C++</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Физика (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Закон Ома для однородного и неоднородного участков цепи постоянного тока
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Определение элементов геомагнитного поля с помощью тангенс-гальванометра
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Исследование полупроводникового диода</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p1>3 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Теория автоматов и формальных языков (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Построение абстрактного автомата Мили, моделирующего работу заданного
+                                            устройства (устройство лифтового оборудования)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Построение абстрактного автомата Мили, моделирующего работу заданного
+                                            устройства (конечный автомат с входным алфавитом V={a,b,c}, распознающий все
+                                            цепочки, начинающиеся и заканчивающиеся различными символами)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Теория автоматов и формальных языков (курсовая работа на тему: Конструирование
+                                    моделей лексического и синтаксического анализа)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс проектирования моделей лексического и
+                                            синтаксического анализа (описание конечного автомата, лексический и
+                                            синтаксический анализ, КС-грамматика, порождение грамматики, форма
+                                            Бэкуса-Наура, диаграммы Вирта)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Структурное программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Структуры на языке C++ (определение полей, их заполнение с клавиатуры и
+                                            т.д.)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Строки на языке C++ (разбить строку на слова и вывести самое короткое)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Работа с текстовыми файлами на языке C++ (выяснить число строк, начинающихся
+                                            с буквы введённой пользователем; найти и сравнить чего в файле больше:
+                                            русских букв или цифр)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Работа с бинарными файлами на языке C++ (подсчитать число вещественных чисел
+                                            в файле равных заданному пользователем значению; создать файл с двухмерным
+                                            массивом 3х3 и записать в другой файл все чётные числа из этого массива)
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Работа с Windows Forms (реализация игры "Быки и коровы")</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Структурное программирование (курсовая работа на тему: Конструирование моделей
+                                    лексического и синтаксического анализа на языке C++)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс написания программы на языке C++,
+                                            моделирующей работу лексического и синтаксического анализатора</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Системное программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Арифметические команды языка Assembler</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Логические команды языка Assembler</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Команды условных и безусловных переходов на языке Assembler</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Организация циклов на языке Assembler
+                                        </p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Системное программирование (курсовая работа на тему: Программирование на языке
+                                    низкого уровня)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс написания программы для вычисления
+                                            значения функции на языке низкого уровня Assembler</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Физика (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Цепи постоянного тока</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Изучение внешнего фотоэффекта</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Измерение показателя преломления с помощью рефрактометра ИРФ - 22
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Виртуальная лабораторная работа "Эффект Комптона"
+                                        </p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p1>4 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Базы данных (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Физическая организация файлов баз данных (изучение внутренней организации
+                                            файлов баз данных форматов dBase Rebus и Access)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Проектирование реляционных БД (проектирования баз данных с использованием
+                                            нормализации)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Управление транзакциями. Журнализация изменений БД (рассмотрение
+                                            порядкавыполнения транзакций; изучение механизма ведения журнала изменений
+                                            БД; Исследование способов поддержания целостности БД)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Web-программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Моделирование сайта (модель сайта курсовой работы, шаблон вёрстки,
+                                            потенциальные источники информации и т.д.)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>HTML разметка (работа с текстом, картинками, гиперссылками таблицами,
+                                            фреймами и т.д.)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>CSS вёрстка (создание блоков с различным набором параметров)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Web-программирование (курсовая работа на тему: Разработка сайта «Всё самое
+                                    интересное про
+                                    физику»)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс создания web-сайта при помощи HTML,
+                                            CSS, JavaScript (JS используется для реализации тестов), а также его
+                                            публикация на бесплатный web-хостинг</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Микроэлектроника и схемотехника ЭВМ (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>
+                                            Исследования работы логических элементов, например, RS-триггер, D-триггер и
+                                            т.д.)
+                                        </p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Микроэлектроника и схемотехника ЭВМ (курсовая работа на тему: Проектирование
+                                    схемотехнических устройств)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс разработки и создания электронного
+                                            устройства, дверного звонка, с помощью логических элементов</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Объектно-ориентированное программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Разработка абстрактных типов данных на языке C++ (создание классов, правила
+                                            доступа к элементам)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Создание и уничтожение объектов класса на языке C++ (вызов конструкторов и
+                                            деструкторов)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Перегрузка операторов на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программирование шаблонных классов и функций на языке C++</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Структуры данных (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Динамические списки на языке C++ (создание очереди из элементов первого
+                                            стека, кратных минимуму второго)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Графы на языке C++ (решение задачи на эйлеров цикл)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Полный перебор на C++ (решение методом полного p-ичного перебора задачи про
+                                            гвозди и верёвки)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Физические основы информационных технологий (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Компьютерные методы решения физических задач (сложение колебаний)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Моделирование законов динамики (одномерное движение)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Цепи постоянного тока (знакомство с компьютерным моделированием цепей
+                                            постоянного тока; экспериментальное подтверждение законов Ома и Кирхгофа)
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Компьютерные методы исследования свободных колебаний (знакомство с
+                                            компьютерной моделью процесса свободных затухающих колебаний в электрическом
+                                            колебательном контуре; экспериментальное исследование закономерностей
+                                            свободных затухающих колебаний; экспериментальное определение величины
+                                            индуктивности контура)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Физические основы информационных технологий (курсовая работа на тему: Проектирование
+                                    сайта «Всё самое
+                                    интересное про
+                                    физику»)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В курсовой работе рассмотрен процесс проектирования тематического web-сайта
+                                            «Всё самое интересное про
+                                            физику»</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Теория вероятности и математическая статистика</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Оценка двух множеств случайных величин (поле корреляции)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Оценка курса валют (линия тренда за 2-ой период и поле корреляции для двух
+                                            периодов)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Сотрудники и зарплата (полигон частот - плотность вероятности случайной
+                                            величины)
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Оценка золотовалютных резервов (гистограмма относительных частот)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Учебная практика (основы работы в 1С:Предприятие)</p1>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p1>5 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Организация и архитектура ЭВМ (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Разработка алгоритма и микропрограммы арифметической операции (для АЛУ -
+                                            Арифметического логического устройства)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программирование управляющего автомата (в АЛУ)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Архитектура ЭВМ и система команд (программирование ЭВМ на машинных командах,
+                                            знакомство с языком Assembler)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программирование разветвляющегося процесса (написана программа на языке
+                                            Assembler для вычисления значения функции с использованием операторов
+                                            ветвления)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Алгоритмы обработки данных (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Динамическое программирование (программа на языке C++, реализующая алгоритм
+                                            находения пути от нижней строки двумерного массива к верхней, сумма которого
+                                            будет максимальной)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Сортировка массивов (программа на языке C++, позволяющая сортировать массив
+                                            тремя способами: методом прямого включения, шейкерной сортировкой, методом
+                                            Шелла)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Дерево поиска. Частотный словарь (программа на языке C++, реализующая
+                                            частотный словарь текста)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Алгоритмы обработки данных (курсовая работа на тему: "Структуры и алгоритмы
+                                    обработки данных")</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Написана программа на языке C++ с графическим интерфейсом, котороя позволяет
+                                            находить максимальное паросочетание в двудольном графе</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Базы данных (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Программа управления БД DTM SQL editor</p1>
+                                    </li>
+                                    <li>
+                                        <p1>SQL. Язык манипулирования данными (DML)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Взаимодействие с БД Access из приложения, созданного на ЯВУ</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Базы данных (курсовая работа на тему: "Проектирование базы данных Справочник
+                                    туриста")</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В ходе выполнения курсовой работы была спроектирована база данных
+                                            “Справочник туриста” (ER-диаграмма сущностей и набор атрибутов, а так же
+                                            подробное описание свойств каждой сущности), а также программа на языке
+                                            высокого уровня C++, обеспечивающая взаимодействие с БД. </p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Вычислительная математика (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Приближённые вычисления</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Методы решения нелинейных уравнений (с программой на языке C++)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Методы решения систем линейных уравнений (в MS Excel)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Методы решения систем нелинейных уравнений (в MS Excel)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Методы вычисления определённых интегралов (с программой на языке C++)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Компьютерные сети и телекоммуникации (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Соединение двух ПК ("Нуль-модем" соединение и спайка разъёмов DB-9 и DB-25,
+                                            напрямую через витую пару, через хаб, беспроводная связь при помощи
+                                            Bluetooth/Wi-Fi адаптеров)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Логическое моделирование телекоммуникационной сети в программе "NetEmul"
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Основы диагностики сети консольными средствами ОС Windows</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Основы программной инженерии (лаб работа)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Конструирование объектно-ориентированных программ (конструирование и
+                                            реализация ассоциированных классов)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Объектно-ориентированное программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Программная реализация отношения простого наследования на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программная реализация отношения множественного наследования на языке C++
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программирование обработки исключительных ситуаций на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Разработка модели и конструирование ассоциированных классов C++</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Объектно-ориентированное программирование (курсовая работа на тему:
+                                    "Объектно-ориентированное программирование на языке С++")</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В ходе курсовой работы была разработана иерархия родственных типов,
+                                            корневой класс которой абстрактный базовый класс (класс-интерфейс);
+                                            созданы функции обработки данных (сортировка и поиск, перегруженная
+                                            функция оператора присваивания); реализован файловый ввод/вывод и ввод
+                                            данных с клавиатуры, вывод данных на дисплей; предусмотрена обработка
+                                            исключительных ситуаций.</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Программирование графики (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Построение примитивов с помощью библиотеки OpenGL на языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Удаление невидимых граней в OpenGL на языке C++ (написана программа,
+                                            реализующуя построение части сцены, попадающей в пирамиду отсечения)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Текстурирование трехмерных изображений с использованием библиотеки OpenGL на
+                                            языке C++</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Источники света и материалы в библиотеке OpenGL на языке C++</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Программирование графики (курсовая работа на тему: "Создание 3d-сцены")</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Спроектирована и создана в программе Autodesk 3ds Max сцена (интерьер окна
+                                            спальни)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Производственная практика</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В соответствии с заданием, было разработано мобильное приложение в IDE
+                                            Android Studio на языке JAVA. Была развёрнута база данных MySQL на
+                                            веб-хостинге. Была добавлена реализована возможность получать данные из
+                                            MySQL БД в мобильном приложении и загружать данные в MySQL БД из мобильного
+                                            приложения. После этого была освоена Oracle Database, и, так же реализована
+                                            возможность получать данные из Oracle БД в мобильном приложении и загружать
+                                            данные в Oracle БД из мобильного приложения.</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p1>6 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Организация и архитектура ЭВМ (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Программирование цикла с переадресацией (написана программа на языке
+                                            Assembler)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Подпрограммы и стек (написана программа на языке Assembler, которая выводит
+                                            среднее арифметическое параметров трёх массивов)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Организация и архитектура ЭВМ (курсовая работа на тему:
+                                    "Разработка арифметико-логического устройства")</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В процессе написания курсовой работы была написана программа на языке
+                                            программирования C++, которая реализует арифметико-логическое устройство
+                                            (АЛУ) для заданного набора операций с учетом ограничений на код выполнения
+                                            операций</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Java программирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Простейшие классы и объекты. Пакеты</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Простое наследование</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Абстрактные классы, интерфейсы</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Коллекции</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Java программирование (курсовая работа на тему: "Программирование на языке Java")
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>В данной курсовой работе рассмотрен процесс разработки программного
+                                            обеспечения, которое позволяет скрывать данные в тексте и извлекать из него
+                                            методом стеганографии</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Компьютерное моделирование (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Модели и моделирование (математическая и аналитическая, когнитивная,
+                                            концептуальная модели)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Построение математической модели системы (метод наименьших квадратов)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Детерминированные модели. Задача о назначениях (написана программа,
+                                            реализующая задачу о назначениях)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Моделирование с использование аппарата СМО для решения задачи оптимального
+                                            использования ресурсов</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Построение генераторов случайных чисел с заданными функциями распределения
+                                            для моделирования процессов различной природы (реализована программа,
+                                            реализующая: построение генераторов базовой последовательности, а также
+                                            генераторов с заданными функциями распределения)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Применение метода имитационного моделирования к задачам систем массового
+                                            обслуживания (написана программа, которая выполняет построение
+                                            последовательности случайных чисел с помощью генераторов и использует
+                                            полученные числа для имитации работы одноканальной системы массового
+                                            обслуживания)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Компьютерное моделирование (курсовая работа на тему: "Построение математической
+                                    модели")</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В ходе выполнения курсовой работы была построена математическая модель
+                                            поисковой системы, позволяющая оценивать точность, а также полноту поиска
+                                        </p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Компьютерные сети и телекоммуникации (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Передача дискретных данных по линиям связи (написана программа на языке C# и
+                                            реализующая утилиту Ping, осуществляющая эхо-запрос)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Построение локальных сетей по стандартам физического и канального уровней
+                                            (написана программа на языке C++, позволяющая рассчитывать конфигурацию сети
+                                            Ethernet</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Технологии передачи данных в локальных сетях. Разработка сетевого приложения
+                                            для распределённых вычислений (написаны программы на языке C++, работающие
+                                            по технологии клиент-сервер)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Сетевой уровень как средство построения больших сетей (написана программа на
+                                            языке C#, моделирующая ЛВС и позволяющая оценивать загрузку сервера, рабочих
+                                            станций за 8 часов работы, а так же подсчитывающая количество обработанных и
+                                            необработанных заявок)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Средства анализа и управления сетями (написана программа на языке C++,
+                                            которая позволяет в реальном времени отслеживать, какие типы пакетов
+                                            приходят из сети на компьютер, ведёт статистику, а так же имеет блок анализа
+                                            содержимого пакета и сигнализации пользователю о том, что встретилась
+                                            недопустимая комбинация)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Компьютерные сети и телекоммуникации (курсовая работа на тему: "Проектирование
+                                    локальной вычислительной сети автошколы Форсаж")</p1>
+                                <ul>
+                                    <li>
+                                        <p1>В ходе выполнения курсовой работы была спроектирована локальная
+                                            вычислительная сеть. При проектирования был решён ряд задач, включающих в
+                                            себя: выбор оборудования, протокола передачи данных, указаны рекомендации
+                                            настройки ПО и настройки маршрутизаторов, а так же определена и
+                                            минимизирована стоимость необходимого ПО, оборудования.</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Операционные системы ЭВМ (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Знакомство с командными интерпретаторами Shell (ОС Unix), Bash (Linux)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Основы программирования Bash</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программирование Bash: работа с параметрами командной строки,
+                                            алгоритмические структуры, условия</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программирование Bash: арифметические вычисления и потоки, алгоритмические
+                                            структуры, циклы</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Процессы в ОС Unix (программа на языке C и компилятор GCC)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Организация взаимодействия процессов через pipe и FIFO в ОС UNIX (программа
+                                            на языке C и компилятор GCC)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Проектирование баз данных (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Основы работы в программе ERwin (создание базы данных: определение
+                                            сущностей, атрибутов и взаимосвязей)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Физическое проектирование в программе ERwin (добавление индексов и правил
+                                            валидации, экспорт БД)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Обратное проектирование в программе ERwin (синхронизация с БД и её
+                                            доработка)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Создание отчетов в программе ERwin (отчёты об сущностях, атрибутах,
+                                            взаимосвязях и ограничениях, а так же различные способы форматирования
+                                            отчётов)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Разработка и анализ требований (лабораторный практикум на тему: Проектирование при
+                                    структурном подходе)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Логическая модель системы (в программе BPwin)<br>
+                                            &nbsp&nbsp&nbsp 1. Функциональное моделирование (IDEF0)<br>
+                                            &nbsp&nbsp&nbsp 2. Моделирование бизнес-процессов (IDEF3)<br>
+                                            &nbsp&nbsp&nbsp 3. Моделирование потоков данных (DFD)<br>
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Разработка структурной и функциональной схем (в программе BPwin)<br>
+                                            &nbsp&nbsp&nbsp 1. Структурная схема<br>
+                                            &nbsp&nbsp&nbsp 2. Функциональная схема<br>
+                                        </p1>
+                                    </li>
+                                    <li>
+                                        <p1>Разработка модульной структуры</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p1>7 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Организация и архитектура ЭВМ (практические задания к курсу на
+                                    сайте Openedu: Параллельное программирование с использованием OpenMP и MPI)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Написано приложение на языке C++, которое генерирует случайные числа в
+                                            нескольких потоках (OpenMP)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Написана программа на языке C++, которая разработать решает задачи Дирихле
+                                            для уравнения Пуассона (OpenMP)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Проведён анализ приложения, обрабатывающего bmp изображения, и повышена
+                                            скорость работы данного приложения (OpenMP: Microcoft Visual Studio 2015 и
+                                            Intel Parallel Studio 2016)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Написана параллельная функция на языке C++, для вычисления
+                                            скалярного произведения двух векторов (MPI)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Написана параллельная функция на языке C++, для умножения матрицы на
+                                            вектор (MPI)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Разработка спецификаций и архитектуры программного обеспечения (курсовая работа)
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>Результатом курсовой работы является спроектированная автоматизированная
+                                            информационная система "Контроль содержания городских территорий"
+                                            (сравнительный анализ отечественных и зарубежных аналогов проектируемого
+                                            объекта; выбор технологии, среды и языка программирования; разработка
+                                            спецификаций ПО; построение диаграмм и т.д.)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Проектирование экономических информационных систем (отчёт на тему: Разработка
+                                    системы для учета, обслуживания и инвентаризации компьютерного оборудования учебного
+                                    заведения)
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>Проектирование и разработка ЭИС в AllFusion Process Modeler и
+                                            1С:Предприятие.</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Защита информации (лаб. работы)
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>Основы построения блочных шифров (разработана программа на языке C++,
+                                            реализующая блочный шифр по следующей спецификации: размер блока данных – 64
+                                            бита, размер ключа – 32 бита, структура – сеть Фейштеля с 2 ветвями из 12
+                                            раундов)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Основы построения криптостойких хеш-алгоритмов (разработана программа на
+                                            языке C++ с процедурой криптостойкого хеш-алгоритма)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Генерация случайных чисел (разработана программа на языке C++, которая
+                                            позволяет генерировать и нормировать случайные числа)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Алгоритмы создания цепочек в симметричных криптосистемах (разработана
+                                            программа на языке C++, позволяющая: Закодировать сообщение, используя
+                                            блочный алгоритм из лабораторной работы № 1. Реализовать 4 цепочки
+                                            кодирования (ECB, CBC, CFB, IGE)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Проектирование баз данных (лаб. работы)
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>Управление БД Oracle (добавление таблиц, записей, изменение структуры
+                                            таблиц,
+                                            сортировка, запросы)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Командный и программный режимы управления БД Oracle (освоены основы работы в
+                                            Oracle Application Express и реализована программа на языке Java для
+                                            взаимодействия с БД)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Программирование на ЯВУ (реализована программа на языке Java,
+                                            взаимодействующая с БД для выполнения поставленных задач)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Триггеры</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Проектирование баз данных (курсовая работа на тему: Проектирование информационной
+                                    системы "Контроль содержания городских территорий")
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>При выполнении курсовой работы была выбрана модель ЖЦ для ПО, а так же
+                                            разработана ER-модель новых таблиц для БД, необходимых для реализации
+                                            веб-сервиса и мобильного приложения</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Компьютерные сети и телекоммуникации (лаб. работы)
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>Проектирование локальной сети в MS Visio</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Подбор актуального сетевого оборудования (сетевые адаптеры, повторители,
+                                            коммутаторы, маршрутизаторы, беспроводные модемы)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Проектирование сети в программе Cisco Packet Tracer 5.0</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Преобразование масок в другой формат, анализ IP-адресов, продолжение работы
+                                            в Cisco Packet Tracer 5.0</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Компьютерные сети и телекоммуникации (курсовая работа на тему: "Проектирование и
+                                    расчет компьютерной сети автошколы Форсаж")
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>В ходе выполнения курсовой работы была спроектирована и настроена локальная
+                                            вычислительная сеть для автошколы “Форсаж”. При проектирования и настройке
+                                            был решён ряд задач, включающих в себя: определение состава оборудования,
+                                            построение схем сети (схема размещения рабочих мест сотрудников, структурная
+                                            схема сети, логическая схема сети), выполнена пошаговая настройка сети в
+                                            Cisco Packet Tracer.</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Системное администрирование
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>Работа в SQL Server, служба WWW, CGI-программирование, язык серверных
+                                            сценариев PHP, электронная почта, операционная система MS Windows
+                                            NT/2000/XP/2003, сетевые протоколы NetBIOS и TCP/IP, совместный доступ к
+                                            файлам и принтерам в Windows, мониторинг работы системы, веб-интерфейс для
+                                            организации удаленного управления компьютером под управлением Windows
+                                            2000/2003, маршрутизаторы в сетях TCP/IP и т.д.</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Сетевые операционные системы (лаб. работы)
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>Установка и настройка домена Windows 2008 R2</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Администрирование пользователей и ресурсов домена Windows</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Администрирование пользователей с использованием обязательных и перемещаемых
+                                            профилей</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Сетевые операционные системы (курсовая работа на тему: "Практическое применение
+                                    принципов администрирования операционных систем")
+                                </p1>
+                                <ul>
+                                    <li>
+                                        <p1>В ходе выполнения курсовой работы была спроектирована и настроена локальная
+                                            вычислительная сеть. Во время проектирования и настройки был решён ряд
+                                            задач, включающих в себя: построение схем сети (схема размещения рабочих
+                                            мест сотрудников, структурная схема сети, логическая схема сети), выполнен
+                                            выбор сетевой операционной системы с обоснованием, а так же были применены
+                                            знания принципов администрирования (Устранение проблем с доступом и
+                                            пользовательскими правами: устранение проблем с разделяемыми ресурсами.
+                                            Административные утилит: виды и использование утилит)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p1>8 семестр</p1>
+                        <ul>
+                            <li>
+                                <p1>Администрирование баз данных (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Настройка виртуальной машины VM VirtualBox, установка на неё Windows 7,
+                                            установка на VM СУБД Oracle Express, подключение к БД по локальной сети с
+                                            помощью SQL Developer</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Поддержание целостности данных в Oracle Database (PRIMARY KEY, NOT NULL,
+                                            UNIQUE, Ссылочные ограничения целостности, Связи между родительскими и
+                                            порожденными таблицами, CHECK, CONSTRAINT)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Применение политики защиты в Oracle Database (роли и их права)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Методы обработки экспериментальных данных (лаб. работы в MS Excel)</p1>
+                            </li>
+
+                            <li>
+                                <p1>Управление программными проектами (Основы работы в Microsoft Project)</p1>
+                            </li>
+
+                            <li>
+                                <p1>Организация производства (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Фотография рабочего времени (расчёт возможного повышения производительности
+                                            труда за счет устранения организационно технических неполадок)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Методика расчёта технико-экономических показателей (Трудозатраты на
+                                            разработку и отладку программы; Расчет трудоемкости разработки; Расчет
+                                            себестоимости программного продукта; Расчет цены программного продукта;
+                                            Расчет экономической эффективности)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Сетевое планирование и управление (построение сетевого графика для списка
+                                            работ)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Проектирование пользовательского интерфейса (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Основы проектирования пользовательского интерфейса (обзор различных видов
+                                            пользовательских интерфейсов)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Первоначальное проектирование интерфейса: моделирование задач (описание
+                                            сценариев, разработка модели use case, граф диалога)</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Методы оценки интерфейса (Метрики, Законы Фитса и Хика, GOMS)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Проектирование пользовательского интерфейса (курсовая работа на тему: Проектирование
+                                    пользовательского интерфейса мобильного приложения ИС "Контроль содержания городских
+                                    территорий")</p1>
+                            </li>
+
+                            <li>
+                                <p1>Метрология (лаб. работы)</p1>
+                                <ul>
+                                    <li>
+                                        <p1>Выбор средств измерений по точности. Погрешности измерений. Однократные
+                                            измерения</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Обработка многократных и косвенных измерений</p1>
+                                    </li>
+                                    <li>
+                                        <p1>Оценка качества программного средства (был разработан свой калькулятор в
+                                            среде IntelliJ IDEA на языке Java, а так же произведено сравнение с
+                                            калькулятором фирмы Microsoft)</p1>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <p1>Выпускная курсовая работа на тему: Разработка программного обеспечения
+                                    информационной системы "Контроль содержания городских территорий"</p1>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+{% endblock %}

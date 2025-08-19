@@ -1,0 +1,47 @@
+{% extends 'base.html' %} {% block title %}{{dictionary.dictionary_title}}{% endblock %} {% block content %}
+
+<h2>{{dictionary.dictionary_title}}</h2>
+
+<p>{{dictionary.dictionary_text}}</p>
+
+<em>{{dictionary.pub_date}}</em> {% if dictionary.was_published_recently %} НОВАЯ СТАТЬЯ! {% endif %}
+
+<hr>
+
+<h1>Словарь</h1>
+
+<div class="card_container">
+    <form method="POST">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td class="col1">{{ form.word }}</td>
+                <td class="col2">{{ form.definition }}</td>
+            </tr>
+            <tr>
+                <td class="col1"></td>
+                <td class="col3">
+                    <button class="btn btn-add" type="submit">Добавить слово</button>
+                    <span>{{ error }}</span>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<hr>
+<h1>Последние 5 слов:</h1>
+{% if latest_cards_list %} {% for c in latest_cards_list %}
+<div class="card_container">
+    <table>
+        <tr>
+            <td class="col1">{{c.word}}</td>
+            <td class="col2">{{c.definition}}</td>
+        </tr>
+    </table>
+</div>
+{% endfor %} {% else %} Слова в словаре не найдены! Добавьте слово {% endif %}
+
+<hr>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Последние слова{% endblock %}
+
+{% block content %}
+
+    {% if latest_dictionary_list %}
+
+        {% for a in latest_dictionary_list %}
+            ваыавыа
+            <a href="{% url 'dictionary:detail' a.id %}">{{a.dictionary_title}}</a>
+        {% endfor %}
+
+    {% else %}
+        Статьи не найдены
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,195 @@
+body {
+    background: #141414;
+}
+
+/* левая часть шапки */
+.hcol1 {
+    width: 50%;
+}
+
+a {
+    /* Отменяем подчеркивание у ссылки */
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* логотип */
+aside img {
+    width: 40px;
+    float: left;
+}
+
+/* текст */
+aside .logo {
+    margin-left: 2%;
+    font-size: 30px;
+    font-weight: bold;
+    float: inline-start;
+    color: white;
+}
+
+.main_container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 15px 15px;
+    background: #141414;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+@media (max-width:1200px) {
+    .main_container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width:992px) {
+    .main_container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .main_container {
+        max-width: none;
+        font-size: 14px;
+    }
+
+    /* логотип */
+    aside img {
+        width: 30px;
+    }
+
+    aside .logo {
+        font-size: 25px;
+    }
+}
+
+/* карточка */
+.card_container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    /* внешний отступ */
+    margin-bottom: 7px;
+    max-width: 814px;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 1px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+
+/* содержимое карточки */
+table {
+    width: 100%;
+    /* Ширина таблицы в процентах */
+}
+
+/* слово */
+.col1 {
+    width: 20%;
+    border-right: 3px solid #f6f7fb;
+    padding-right: 15px;
+}
+
+/* определение */
+.col2 {
+    padding-left: 15px;
+}
+
+/* кнопка добавить слово */
+.col3 {
+    float: right;
+}
+
+/* стиль кнопки добавить слово */
+.btn-add {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.project_container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid rgb(35, 35, 35);
+    /*
+    max-width: 814px;
+    padding: 15px;
+    border-radius: 1px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    */
+}
+
+/* слово */
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    padding-left: 15px;
+    /*background-color: #DDF3FE;*/
+    /*border-bottom: 1px solid rgb(45, 45, 45);*/
+}
+
+/* определение */
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    padding-left: 15px;
+    /*background-color: #FEFCD5;*/
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: white;
+}
+
+p {
+    margin-bottom: 0;
+    color: #bdc1c6;
+    text-indent: 20px;
+}
+
+hr {
+    /* Убираем границу для браузера Firefox */
+    border: none;
+    /* Цвет линии для остальных браузеров */
+    color: rgb(105, 105, 105);
+    /* Цвет линии для браузера Firefox и Opera */
+    background-color: rgb(105, 105, 105);
+    /* Толщина линии */
+    height: 2px;
+    margin-bottom: 0;
+}
+
+p1 {
+    color: #bdc1c6;
+}
+
+summary {
+    color: #bdc1c6;
+    text-indent: 20px;
+}

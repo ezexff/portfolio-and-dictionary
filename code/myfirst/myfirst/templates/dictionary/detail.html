@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}{{dictionary.dictionary_title}}{% endblock %}
+
+{% block content %}
+
+<h2>{{dictionary.dictionary_title}}</h2>
+
+<p>{{dictionary.dictionary_text}}</p>
+
+<em>{{dictionary.pub_date}}</em>
+
+{% if dictionary.was_published_recently %}
+НОВАЯ СТАТЬЯ!
+{% endif %}
+<hr>
+
+{% if latest_comments_list %}
+
+    {% for c in latest_comments_list %}
+        <p>
+            <strong>{{c.author_name}}</strong>
+            <p>{{c.comment_text}}</p>
+        </p>
+    {% endfor %}
+
+{% else %}
+Комментарии не найдены! Станьте первым
+{% endif %}
+
+
+<hr>
+
+<form action="{% url 'dictionary:leave_comment' dictionary.id %}" method="POST">
+
+    {% csrf_token %}
+
+    <input type="word" required placeholder="Ваше имя" name="name"><br>
+    <textarea name="definition" required="" placeholer="Текст комментария" cols="30" rows="10"></textarea><br>
+
+    <button type="submit">Оставить комментарий</button>
+
+</form>
+
+{% endblock %}
